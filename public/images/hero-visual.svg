@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" fill="none">
+  
+<defs>
+  <linearGradient id="gH" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#5511ED"/><stop offset="1" stop-color="#2B0080"/>
+  </linearGradient>
+  <linearGradient id="sH" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".35"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+  <rect width="640" height="620" rx="40" fill="#F5F2FC"/>
+  <circle cx="560" cy="80" r="150" fill="#8C6BFF" opacity=".18"/>
+  <circle cx="70" cy="560" r="120" fill="#5511ED" opacity=".12"/>
+  <rect x="32" y="42" width="512" height="330" rx="28" fill="#fff" opacity=".92"/>
+  <text x="60" y="86" font-family="Sora,sans-serif" font-size="17" font-weight="700" fill="#1C1C1C">Revenue growth</text>
+  <text x="60" y="112" font-family="Inter,sans-serif" font-size="13" fill="#6B6580">Last 7 months · blended</text>
+  <rect x="430" y="70" width="88" height="28" rx="14" fill="#5511ED" opacity=".12"/>
+  <text x="474" y="89" text-anchor="middle" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#5511ED">+218%</text>
+  <rect x="60" y="254" width="34" height="76" rx="10" fill="url(#gH)" opacity="0.45"/><rect x="122" y="214" width="34" height="116" rx="10" fill="url(#gH)" opacity="0.53"/><rect x="184" y="238" width="34" height="92" rx="10" fill="url(#gH)" opacity="0.61"/><rect x="246" y="182" width="34" height="148" rx="10" fill="url(#gH)" opacity="0.69"/><rect x="308" y="206" width="34" height="124" rx="10" fill="url(#gH)" opacity="0.77"/><rect x="370" y="146" width="34" height="184" rx="10" fill="url(#gH)" opacity="0.8500000000000001"/><rect x="432" y="170" width="34" height="160" rx="10" fill="url(#gH)" opacity="0.9299999999999999"/>
+  <path d="M77 210 L139 176 L201 190 L263 130 L325 152 L387 88 L449 104" stroke="#5511ED" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <circle cx="77" cy="210" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/><circle cx="139" cy="176" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/><circle cx="201" cy="190" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/><circle cx="263" cy="130" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/><circle cx="325" cy="152" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/><circle cx="387" cy="88" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/><circle cx="449" cy="104" r="6" fill="#fff" stroke="#5511ED" stroke-width="4"/>
+  <rect x="96" y="410" width="450" height="170" rx="26" fill="url(#gH)"/>
+  <rect x="96" y="410" width="450" height="170" rx="26" fill="url(#sH)"/>
+  <text x="128" y="466" font-family="Sora,sans-serif" font-size="15" font-weight="600" fill="#fff" opacity=".85">Blended ROAS</text>
+  <text x="128" y="524" font-family="Sora,sans-serif" font-size="46" font-weight="700" fill="#fff">4.7x</text>
+  <g opacity=".9">
+    <circle cx="470" cy="495" r="42" stroke="#fff" stroke-opacity=".35" stroke-width="8" fill="none"/>
+    <path d="M470 453 a42 42 0 0 1 33 68" stroke="#fff" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,137 @@
+{
+  "_comment": "Brand identity, navigation, contact details, socials, footer & SEO. Edit once, updates every page.",
+
+  "brand": {
+    "name": "Sarovar Marketing Hub",
+    "shortName": "Sarovar",
+    "logoText": "Sarovar",
+    "logoTextAccent": "Marketing Hub",
+    "logoImage": "",
+    "logoImageDark": "",
+    "logoIcon": "waves",
+    "tagline": "Marketing that moves the needle",
+    "foundedYear": "2019"
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Work", "href": "/#work" },
+      { "label": "About", "href": "/#about" },
+      { "label": "Testimonials", "href": "/#testimonials" }
+    ],
+    "cta": { "label": "Book a Free Strategy Call", "href": "/contact" },
+    "showCta": true
+  },
+
+  "contactInfo": {
+    "email": "hello@sarovarmarketinghub.com",
+    "emailSecondary": "careers@sarovarmarketinghub.com",
+    "phone": "+91 98765 43210",
+    "phoneLink": "+919876543210",
+    "whatsapp": "+919876543210",
+    "addressLine1": "4th Floor, Orchid Business Park",
+    "addressLine2": "Baner Road, Pune, Maharashtra 411045",
+    "hours": "Mon – Sat · 10:00 AM – 7:00 PM IST",
+    "responseTime": "We reply to every enquiry within 24 hours.",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Baner%20Road%20Pune&output=embed",
+    "mapLink": "https://maps.google.com/?q=Baner+Road+Pune"
+  },
+
+  "socials": [
+    { "label": "Instagram", "icon": "instagram", "href": "https://instagram.com/" },
+    { "label": "LinkedIn", "icon": "linkedin", "href": "https://linkedin.com/" },
+    { "label": "X (Twitter)", "icon": "twitter", "href": "https://x.com/" },
+    { "label": "YouTube", "icon": "youtube", "href": "https://youtube.com/" },
+    { "label": "Facebook", "icon": "facebook", "href": "https://facebook.com/" }
+  ],
+
+  "announcementBar": {
+    "enabled": true,
+    "text": "Now onboarding 4 new brands for the Q4 growth sprint",
+    "linkLabel": "Grab a slot",
+    "linkHref": "/contact",
+    "icon": "sparkles"
+  },
+
+  "footer": {
+    "about": "Sarovar Marketing Hub is a full-funnel growth partner for ambitious brands. We blend sharp strategy, scroll-stopping creative and ruthless performance marketing to turn attention into revenue.",
+    "newsletter": {
+      "enabled": true,
+      "heading": "Growth notes, twice a month",
+      "text": "Real campaign teardowns, ad creatives that worked and the numbers behind them. No fluff.",
+      "placeholder": "you@company.com",
+      "buttonLabel": "Subscribe",
+      "successMessage": "You're in. Watch your inbox for the next issue.",
+      "note": "No spam. Unsubscribe anytime."
+    },
+    "columns": [
+      {
+        "heading": "Company",
+        "links": [
+          { "label": "Home", "href": "/" },
+          { "label": "About Us", "href": "/#about" },
+          { "label": "Why Sarovar", "href": "/#why-us" },
+          { "label": "Our Work", "href": "/#work" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "heading": "Services",
+        "links": [
+          { "label": "Social Media Marketing", "href": "/services#social-media-marketing" },
+          { "label": "Performance Ads", "href": "/services#performance-marketing" },
+          { "label": "SEO & Content", "href": "/services#seo-content" },
+          { "label": "Branding & Design", "href": "/services#branding-design" },
+          { "label": "Web Development", "href": "/services#web-development" }
+        ]
+      },
+      {
+        "heading": "Resources",
+        "links": [
+          { "label": "Case Studies", "href": "/#work" },
+          { "label": "Testimonials", "href": "/#testimonials" },
+          { "label": "Our Process", "href": "/services#process" },
+          { "label": "FAQs", "href": "/contact#faq" }
+        ]
+      }
+    ],
+    "badges": [
+      { "icon": "shield-check", "label": "Meta Business Partner" },
+      { "icon": "badge-check", "label": "Google Ads Certified" }
+    ],
+    "copyright": "Sarovar Marketing Hub. All rights reserved.",
+    "legalLinks": [
+      { "label": "Privacy Policy", "href": "/contact" },
+      { "label": "Terms of Service", "href": "/contact" }
+    ],
+    "credit": "Crafted with intent in Pune, India."
+  },
+
+  "floatingWhatsApp": {
+    "enabled": true,
+    "label": "Chat on WhatsApp",
+    "message": "Hi Sarovar team! I'd like to know more about your marketing services."
+  },
+
+  "seo": {
+    "titleTemplate": "%s | Sarovar Marketing Hub",
+    "defaultTitle": "Sarovar Marketing Hub | Full-Funnel Growth Marketing Agency",
+    "description": "Sarovar Marketing Hub is a full-funnel digital marketing agency delivering social media, performance ads, SEO, branding and web experiences that grow revenue.",
+    "keywords": [
+      "marketing agency",
+      "digital marketing",
+      "social media marketing",
+      "performance marketing",
+      "SEO agency",
+      "branding agency",
+      "Pune marketing agency"
+    ],
+    "siteUrl": "https://www.sarovarmarketinghub.com",
+    "ogImage": "/images/og-cover.svg",
+    "twitterHandle": "@sarovarhub",
+    "locale": "en_IN",
+    "themeColorMeta": "#5511ED"
+  }
+}

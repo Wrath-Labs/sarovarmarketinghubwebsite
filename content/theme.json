@@ -1,0 +1,59 @@
+{
+  "_comment": "Global look & feel. Change a hex code here and it updates everywhere on the site.",
+
+  "colors": {
+    "indigo": "#5511ED",
+    "lilacSnow": "#F5F2FC",
+    "deepRoyalPurple": "#2B0080",
+    "richSoftBlack": "#1C1C1C",
+    "white": "#FFFFFF",
+    "muted": "#6B6580",
+    "border": "#E6E0F5",
+    "accent": "#8C6BFF"
+  },
+
+  "roles": {
+    "_comment": "Which colour from the list above is used for what. Use any key from 'colors'.",
+    "primary": "indigo",
+    "primaryDark": "deepRoyalPurple",
+    "pageBackground": "white",
+    "sectionBackground": "lilacSnow",
+    "darkBackground": "richSoftBlack",
+    "heading": "richSoftBlack",
+    "body": "muted",
+    "border": "border",
+    "accent": "accent"
+  },
+
+  "fonts": {
+    "_comment": "Any font name from fonts.google.com. Weights are loaded automatically.",
+    "heading": "Sora",
+    "body": "Plus Jakarta Sans"
+  },
+
+  "typography": {
+    "headingWeight": 700,
+    "headingLetterSpacing": "-0.03em",
+    "bodyWeight": 400
+  },
+
+  "layout": {
+    "maxWidth": "1280px",
+    "sectionPaddingY": "clamp(4.5rem, 9vw, 8.5rem)",
+    "radius": "1.5rem",
+    "radiusSmall": "0.875rem",
+    "radiusPill": "999px"
+  },
+
+  "effects": {
+    "enableAnimations": true,
+    "enableGrainTexture": true,
+    "enableCursorGlow": true,
+    "enableScrollProgressBar": true,
+    "revealDuration": 0.7,
+    "revealDistance": 28,
+    "staggerDelay": 0.09,
+    "shadowSoft": "0 18px 50px -18px rgba(43, 0, 128, 0.22)",
+    "shadowCard": "0 2px 6px -2px rgba(28,28,28,0.06), 0 12px 40px -16px rgba(85, 17, 237, 0.18)"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "_comment": "The /contact page, including every form field. Add a field to 'form.fields' and it renders automatically.",
+
+  "meta": {
+    "title": "Contact",
+    "description": "Book a free 30-minute strategy call with Sarovar Marketing Hub, or send us a message and we'll reply within 24 hours."
+  },
+
+  "hero": {
+    "eyebrow": "Contact us",
+    "heading": "Let's build something worth talking about",
+    "highlight": "worth talking about",
+    "subheading": "Tell us where you are and where you want to be. We'll come back with a straight answer on whether we're the right partner — and what we'd do first.",
+    "badges": [
+      { "icon": "clock", "label": "Replies within 24 hours" },
+      { "icon": "shield-check", "label": "Your details stay private" }
+    ]
+  },
+
+  "form": {
+    "heading": "Send us a message",
+    "subheading": "The more context you give us, the more useful our first reply will be.",
+    "submitLabel": "Send message",
+    "submittingLabel": "Sending…",
+    "successHeading": "Message received",
+    "successMessage": "Thanks for reaching out. A strategist will get back to you within 24 hours — usually much sooner.",
+    "errorMessage": "Something went wrong. Please email us directly at hello@sarovarmarketinghub.com.",
+    "privacyNote": "By submitting this form you agree to be contacted about your enquiry. We never share your details.",
+    "resetLabel": "Send another message",
+    "endpoint": "",
+    "endpointNote": "Leave 'endpoint' empty to open the visitor's email app with the message pre-filled. Paste a Formspree / Getform / Google Apps Script URL here to receive submissions by POST instead.",
+    "fields": [
+      { "name": "name", "label": "Full name", "type": "text", "placeholder": "Dipanshu Sarovar", "required": true, "width": "half", "icon": "user" },
+      { "name": "email", "label": "Work email", "type": "email", "placeholder": "you@company.com", "required": true, "width": "half", "icon": "mail" },
+      { "name": "phone", "label": "Phone / WhatsApp", "type": "tel", "placeholder": "+91 98765 43210", "required": false, "width": "half", "icon": "phone" },
+      { "name": "company", "label": "Company or brand", "type": "text", "placeholder": "Your brand name", "required": false, "width": "half", "icon": "building-2" },
+      {
+        "name": "service",
+        "label": "What do you need help with?",
+        "type": "select",
+        "required": true,
+        "width": "half",
+        "icon": "layers",
+        "placeholder": "Select a service",
+        "options": [
+          "Social Media Marketing",
+          "Performance Marketing",
+          "SEO & Content",
+          "Branding & Design",
+          "Web & Landing Pages",
+          "Influencer & Digital PR",
+          "Not sure yet — need advice"
+        ]
+      },
+      {
+        "name": "budget",
+        "label": "Monthly budget range",
+        "type": "select",
+        "required": false,
+        "width": "half",
+        "icon": "wallet",
+        "placeholder": "Select a range",
+        "options": [
+          "Under ₹50,000",
+          "₹50,000 – ₹1,00,000",
+          "₹1,00,000 – ₹3,00,000",
+          "₹3,00,000+",
+          "Project-based / one-time"
+        ]
+      },
+      {
+        "name": "message",
+        "label": "Tell us about your project",
+        "type": "textarea",
+        "placeholder": "What are you selling, who to, and what's not working right now?",
+        "required": true,
+        "width": "full",
+        "rows": 5,
+        "icon": "message-square"
+      }
+    ]
+  },
+
+  "sidebar": {
+    "heading": "Other ways to reach us",
+    "cards": [
+      { "icon": "mail", "label": "Email us", "value": "hello@sarovarmarketinghub.com", "href": "mailto:hello@sarovarmarketinghub.com", "note": "Best for detailed briefs" },
+      { "icon": "phone", "label": "Call us", "value": "+91 98765 43210", "href": "tel:+919876543210", "note": "Mon–Sat, 10am–7pm IST" },
+      { "icon": "message-circle", "label": "WhatsApp", "value": "Chat with a strategist", "href": "https://wa.me/919876543210", "note": "Fastest replies" },
+      { "icon": "map-pin", "label": "Visit the studio", "value": "Baner Road, Pune 411045", "href": "https://maps.google.com/?q=Baner+Road+Pune", "note": "Coffee's on us" }
+    ],
+    "socialHeading": "Follow the work",
+    "responseCard": {
+      "enabled": true,
+      "icon": "zap",
+      "title": "Average first reply: 6 hours",
+      "text": "Send us a message on a working day and you'll usually hear back the same afternoon."
+    }
+  },
+
+  "callBooking": {
+    "enabled": true,
+    "eyebrow": "Prefer to talk?",
+    "heading": "Book a free 30-minute strategy call",
+    "subheading": "Pick a slot that suits you. We'll review your funnel before the call so we can be useful from minute one.",
+    "cta": { "label": "Open the booking calendar", "href": "https://cal.com/", "icon": "calendar-check" },
+    "note": "Replace this link with your Calendly or Cal.com URL in content/contact.json.",
+    "points": [
+      { "icon": "search-check", "text": "A live look at your ads, site or search presence" },
+      { "icon": "list-checks", "text": "Two or three fixes you can action immediately" },
+      { "icon": "handshake", "text": "An honest yes or no on whether we're a fit" }
+    ]
+  },
+
+  "map": {
+    "enabled": true,
+    "heading": "Find us in Pune",
+    "subheading": "Drop by the studio — we're a five-minute walk from Baner Road.",
+    "height": 420
+  },
+
+  "faq": {
+    "enabled": true,
+    "eyebrow": "Quick answers",
+    "heading": "Before you write to us",
+    "items": [
+      { "question": "How fast will I hear back?", "answer": "Within 24 hours on working days, and usually within six. If it's urgent, WhatsApp is the fastest route." },
+      { "question": "What happens on the first call?", "answer": "We ask about your business, your numbers and what you've already tried. Then we tell you what we'd do first. No slides, no pressure." },
+      { "question": "Do you charge for the audit?", "answer": "The high-level review before our first call is free. A full 30-page written audit is a paid engagement (₹25,000), which we credit back if you sign a retainer." },
+      { "question": "Are you taking on new clients right now?", "answer": "We onboard a limited number each quarter to keep quality high. If we're full, we'll tell you when the next slot opens instead of stringing you along." },
+      { "question": "Can you work with our in-house team?", "answer": "Often the best setup. We plug in as the strategy and execution layer, or train your team to run what we build. Say so in your message and we'll scope it that way." }
+    ]
+  },
+
+  "cta": {
+    "heading": "Still reading? Let's just talk.",
+    "subheading": "One short call is worth ten pages of research. Bring your numbers and we'll bring the plan.",
+    "primaryCta": { "label": "Book a Free Strategy Call", "href": "#contact-form", "icon": "calendar-check" },
+    "secondaryCta": { "label": "WhatsApp us now", "href": "#whatsapp", "icon": "message-circle" }
+  }
+}
