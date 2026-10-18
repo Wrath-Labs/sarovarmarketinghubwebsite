@@ -1,6 +1,5 @@
 {
   "_comment": "Brand identity, navigation, contact details, socials, footer & SEO. Edit once, updates every page.",
-
   "brand": {
     "name": "Sarovar Marketing Hub",
     "shortName": "Sarovar",
@@ -10,51 +9,84 @@
     "logoImageDark": "",
     "logoIcon": "waves",
     "tagline": "Marketing that moves the needle",
-    "foundedYear": "2019"
+    "foundedYear": "2024"
   },
-
   "nav": {
     "links": [
-      { "label": "Home", "href": "/" },
-      { "label": "Services", "href": "/services" },
-      { "label": "Work", "href": "/#work" },
-      { "label": "About", "href": "/#about" },
-      { "label": "Testimonials", "href": "/#testimonials" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Why Us",
+        "href": "/why-us"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/#contact"
+      }
     ],
-    "cta": { "label": "Book a Free Strategy Call", "href": "/contact" },
+    "cta": {
+      "label": "Book a Free Strategy Call",
+      "href": "/#contact"
+    },
     "showCta": true
   },
-
   "contactInfo": {
-    "email": "hello@sarovarmarketinghub.com",
-    "emailSecondary": "careers@sarovarmarketinghub.com",
-    "phone": "+91 98765 43210",
-    "phoneLink": "+919876543210",
-    "whatsapp": "+919876543210",
-    "addressLine1": "4th Floor, Orchid Business Park",
-    "addressLine2": "Baner Road, Pune, Maharashtra 411045",
-    "hours": "Mon – Sat · 10:00 AM – 7:00 PM IST",
+    "email": "sarovarmarketinghub@gmail.com",
+    "emailSecondary": "",
+    "phone": "+91 85338 93530",
+    "phoneLink": "+918533893530",
+    "whatsapp": "+918533893530",
+    "addressLine1": "Operating remotely from",
+    "addressLine2": "Delhi, India",
+    "hours": "",
     "responseTime": "We reply to every enquiry within 24 hours.",
-    "mapEmbedUrl": "https://www.google.com/maps?q=Baner%20Road%20Pune&output=embed",
-    "mapLink": "https://maps.google.com/?q=Baner+Road+Pune"
+    "mapEmbedUrl": "",
+    "mapLink": ""
   },
-
   "socials": [
-    { "label": "Instagram", "icon": "instagram", "href": "https://instagram.com/" },
-    { "label": "LinkedIn", "icon": "linkedin", "href": "https://linkedin.com/" },
-    { "label": "X (Twitter)", "icon": "twitter", "href": "https://x.com/" },
-    { "label": "YouTube", "icon": "youtube", "href": "https://youtube.com/" },
-    { "label": "Facebook", "icon": "facebook", "href": "https://facebook.com/" }
+    {
+      "label": "Instagram",
+      "icon": "instagram",
+      "href": "https://instagram.com/"
+    },
+    {
+      "label": "LinkedIn",
+      "icon": "linkedin",
+      "href": "https://linkedin.com/"
+    },
+    {
+      "label": "X (Twitter)",
+      "icon": "twitter",
+      "href": "https://x.com/"
+    },
+    {
+      "label": "YouTube",
+      "icon": "youtube",
+      "href": "https://youtube.com/"
+    },
+    {
+      "label": "Facebook",
+      "icon": "facebook",
+      "href": "https://facebook.com/"
+    }
   ],
-
   "announcementBar": {
-    "enabled": true,
+    "enabled": false,
     "text": "Now onboarding 4 new brands for the Q4 growth sprint",
     "linkLabel": "Grab a slot",
-    "linkHref": "/contact",
+    "linkHref": "/#contact",
     "icon": "sparkles"
   },
-
   "footer": {
     "about": "Sarovar Marketing Hub is a full-funnel growth partner for ambitious brands. We blend sharp strategy, scroll-stopping creative and ruthless performance marketing to turn attention into revenue.",
     "newsletter": {
@@ -70,51 +102,69 @@
       {
         "heading": "Company",
         "links": [
-          { "label": "Home", "href": "/" },
-          { "label": "About Us", "href": "/#about" },
-          { "label": "Why Sarovar", "href": "/#why-us" },
-          { "label": "Our Work", "href": "/#work" },
-          { "label": "Contact", "href": "/contact" }
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "About Us",
+            "href": "/about"
+          },
+          {
+            "label": "Why Sarovar",
+            "href": "/why-us"
+          },
+          {
+            "label": "Contact",
+            "href": "/#contact"
+          }
         ]
       },
       {
         "heading": "Services",
         "links": [
-          { "label": "Social Media Marketing", "href": "/services#social-media-marketing" },
-          { "label": "Performance Ads", "href": "/services#performance-marketing" },
-          { "label": "SEO & Content", "href": "/services#seo-content" },
-          { "label": "Branding & Design", "href": "/services#branding-design" },
-          { "label": "Web Development", "href": "/services#web-development" }
-        ]
-      },
-      {
-        "heading": "Resources",
-        "links": [
-          { "label": "Case Studies", "href": "/#work" },
-          { "label": "Testimonials", "href": "/#testimonials" },
-          { "label": "Our Process", "href": "/services#process" },
-          { "label": "FAQs", "href": "/contact#faq" }
+          {
+            "label": "Social Media Marketing",
+            "href": "/services#social-media-marketing"
+          },
+          {
+            "label": "Performance Ads",
+            "href": "/services#performance-marketing"
+          },
+          {
+            "label": "SEO & Content",
+            "href": "/services#seo-content"
+          },
+          {
+            "label": "Branding & Design",
+            "href": "/services#branding-design"
+          },
+          {
+            "label": "Web Development",
+            "href": "/services#web-development"
+          }
         ]
       }
     ],
-    "badges": [
-      { "icon": "shield-check", "label": "Meta Business Partner" },
-      { "icon": "badge-check", "label": "Google Ads Certified" }
-    ],
+    "badges": [],
     "copyright": "Sarovar Marketing Hub. All rights reserved.",
     "legalLinks": [
-      { "label": "Privacy Policy", "href": "/contact" },
-      { "label": "Terms of Service", "href": "/contact" }
+      {
+        "label": "Privacy Policy",
+        "href": "/#contact"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "/#contact"
+      }
     ],
-    "credit": "Crafted with intent in Pune, India."
+    "credit": "Crafted with intent in Delhi, India."
   },
-
   "floatingWhatsApp": {
     "enabled": true,
-    "label": "Chat on WhatsApp",
+    "label": "Chat on WhatsApp · +91 85338 93530",
     "message": "Hi Sarovar team! I'd like to know more about your marketing services."
   },
-
   "seo": {
     "titleTemplate": "%s | Sarovar Marketing Hub",
     "defaultTitle": "Sarovar Marketing Hub | Full-Funnel Growth Marketing Agency",
@@ -126,12 +176,49 @@
       "performance marketing",
       "SEO agency",
       "branding agency",
-      "Pune marketing agency"
+      "Delhi marketing agency"
     ],
     "siteUrl": "https://www.sarovarmarketinghub.com",
     "ogImage": "/images/og-cover.svg",
     "twitterHandle": "@sarovarhub",
     "locale": "en_IN",
     "themeColorMeta": "#5511ED"
+  },
+  "_disabled": {
+    "contactInfo": {
+      "addressLine1": "4th Floor, Orchid Business Park",
+      "addressLine2": "Baner Road, Pune, Maharashtra 411045",
+      "hours": "Mon – Sat · 10:00 AM – 7:00 PM IST",
+      "mapEmbedUrl": "https://www.google.com/maps?q=Baner%20Road%20Pune&output=embed",
+      "mapLink": "https://maps.google.com/?q=Baner+Road+Pune",
+      "phone": "+91 98765 43210",
+      "email": "hello@sarovarmarketinghub.com"
+    },
+    "announcementBar": {
+      "enabled": false,
+      "text": "Now onboarding 4 new brands for the Q4 growth sprint",
+      "linkLabel": "Grab a slot",
+      "linkHref": "/#contact",
+      "icon": "sparkles"
+    },
+    "footer_badges": [
+      {
+        "icon": "shield-check",
+        "label": "Meta Business Partner"
+      },
+      {
+        "icon": "badge-check",
+        "label": "Google Ads Certified"
+      }
+    ],
+    "footer_resources": {
+      "heading": "Resources",
+      "links": [
+        {
+          "label": "Testimonials",
+          "href": "/#testimonials"
+        }
+      ]
+    }
   }
 }

@@ -7,6 +7,7 @@ import siteJson from '@content/site.json';
 import themeJson from '@content/theme.json';
 import homeJson from '@content/home.json';
 import servicesJson from '@content/services.json';
+import whyUsJson from '@content/whyus.json';
 import contactJson from '@content/contact.json';
 
 import type { Site, Theme } from './types';
@@ -15,6 +16,7 @@ export const site = siteJson as unknown as Site;
 export const theme = themeJson as unknown as Theme;
 export const home = homeJson as unknown as Record<string, any>;
 export const services = servicesJson as unknown as Record<string, any>;
+export const whyUsPage = whyUsJson as unknown as Record<string, any>;
 export const contact = contactJson as unknown as Record<string, any>;
 
 /** Resolves a theme role (e.g. "primary") to the hex value in theme.colors. */

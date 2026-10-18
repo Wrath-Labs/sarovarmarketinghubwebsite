@@ -1,0 +1,65 @@
+{
+  "_comment": "The /why-us page. Landing-page summary lives in home.json → whyUs.",
+  "meta": {
+    "title": "Why Choose Us",
+    "description": "Organic first, paid ads with a purpose. Sarovar Marketing Hub plans marketing around your goals, audience and budget — Strategy Before Spend."
+  },
+  "hero": {
+    "eyebrow": "Why Choose Sarovar Marketing Hub?",
+    "heading": "Smarter Marketing. Better Use of Your Budget.",
+    "highlight": "Better Use of Your Budget.",
+    "subheading": "We believe marketing should start with a plan—not an invoice."
+  },
+  "intro": "Many businesses spend money on ads before building the right content, understanding their audience, or defining a clear strategy. The result? Wasted budgets, weak creatives, irrelevant enquiries, and disappointing returns.",
+  "sections": [
+    {
+      "icon": "sprout",
+      "title": "Organic First. Paid Ads with a Purpose.",
+      "paragraphs": [
+        "We prioritise organic marketing to help businesses build visibility, trust, and a strong content foundation. Consistent, high-quality creatives can help your business attract attention without depending entirely on paid promotions. When paid advertising makes sense, we use it strategically to support your goals."
+      ]
+    },
+    {
+      "icon": "clapperboard",
+      "title": "Creatives That Make a Difference",
+      "paragraphs": [
+        "In today's digital world, simply running ads is not enough. Your hook, script, visuals, editing, and message influence whether people stop scrolling or move on. We focus on purposeful creatives designed around your audience—not just content for the sake of posting."
+      ]
+    },
+    {
+      "icon": "wallet",
+      "title": "Your Budget Deserves a Strategy",
+      "paragraphs": [
+        "Small and growing businesses cannot afford to waste money on experiments without direction. Whether your monthly advertising budget is ₹30,000 or ₹1.5 lakh, we plan around your business goals, audience, and actual capacity to invest."
+      ],
+      "example": {
+        "label": "For example",
+        "text": "A Delhi wholesaler targeting buyers across Uttar Pradesh, Madhya Pradesh, Haryana, and Rajasthan may face high advertising costs if every market is targeted broadly. Instead of spreading the budget too thin, we can prioritise promising locations, relevant buyers, and measurable enquiries—then expand based on results."
+      }
+    },
+    {
+      "icon": "graduation-cap",
+      "title": "Full Transparency. Real Education.",
+      "paragraphs": [
+        "We don't just do the work and send you a report. Whenever we plan a campaign, shoot a video, or change a strategy, we explain what we are doing and why, in simple language, so you always know where your money and effort are going.",
+        "The marketing world has its share of fake followers, inflated numbers, and agencies that sell things you don't need. By educating our clients about how digital marketing really works, we help you spot these scams, ask the right questions, and make confident decisions, whether you work with us or not."
+      ]
+    },
+    {
+      "icon": "eye",
+      "title": "Less Wastage. More Clarity.",
+      "paragraphs": [
+        "From content planning and production to campaign management and reporting, we focus on making the process more organised and transparent. No fake followers, no empty promises, and no unnecessary spending just to make a campaign look busy."
+      ]
+    }
+  ],
+  "closing": {
+    "promise": "Our promise is simple: understand your business, respect your budget, and recommend marketing that makes sense for your goals.",
+    "tagline": "Sarovar Marketing Hub — Strategy Before Spend.",
+    "cta": {
+      "label": "Talk to us",
+      "href": "/#contact",
+      "icon": "arrow-right"
+    }
+  }
+}

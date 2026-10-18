@@ -79,7 +79,7 @@ export default function Footer() {
           </Reveal>
 
           {/* link columns */}
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr_1.45fr]">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1fr_1fr_1.45fr]">
             {footer.columns.map((col, ci) => (
               <Reveal key={col.heading} delay={0.06 * ci} className="flex flex-col gap-4">
                 <h4 className="font-heading text-[0.75rem] font-bold tracking-[0.18em] text-white/45 uppercase">
@@ -124,24 +124,18 @@ export default function Footer() {
                     {contactInfo.phone}
                   </a>
                 </li>
+                {/* No physical office or map link — operating remotely. Opening hours removed (unverified).
                 <li>
-                  <a
-                    href={contactInfo.mapLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-start gap-2.5 text-white/65 transition hover:text-white"
-                  >
-                    <Icon name="map-pin" size={16} className="mt-0.5 text-primary" />
-                    <span>
-                      {contactInfo.addressLine1}
-                      <br />
-                      {contactInfo.addressLine2}
-                    </span>
-                  </a>
+                  <a href={contactInfo.mapLink} ...>…</a>
                 </li>
-                <li className="flex items-start gap-2.5 text-white/50">
-                  <Icon name="clock" size={16} className="mt-0.5 text-primary" />
-                  {contactInfo.hours}
+                <li>{contactInfo.hours}</li> */}
+                <li className="flex items-start gap-2.5 text-white/65">
+                  <Icon name="map-pin" size={16} className="mt-0.5 text-primary" />
+                  <span>
+                    {contactInfo.addressLine1}
+                    <br />
+                    {contactInfo.addressLine2}
+                  </span>
                 </li>
               </ul>
 

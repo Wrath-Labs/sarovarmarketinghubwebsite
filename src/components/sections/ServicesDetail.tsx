@@ -7,6 +7,7 @@ import Button from '@/components/ui/Button';
 import Icon from '@/components/ui/Icon';
 import SmartImage from '@/components/ui/SmartImage';
 import Reveal from '@/components/ui/Reveal';
+import RichText from '@/components/ui/RichText';
 import { services } from '@/lib/content';
 import { cn } from '@/lib/utils';
 import type { ServiceItem } from '@/lib/types';
@@ -104,7 +105,7 @@ export default function ServicesDetail() {
 
                 <Reveal delay={0.1}>
                   <p className="mt-4 text-[1rem] leading-relaxed text-body sm:text-[1.0625rem]">
-                    {service.description}
+                    <RichText text={service.description} />
                   </p>
                 </Reveal>
 
@@ -157,7 +158,7 @@ export default function ServicesDetail() {
                 )}
 
                 <Reveal delay={0.24} className="mt-8">
-                  <Button href="/contact" label={`Enquire about ${service.title}`} icon="arrow-right" />
+                  <Button href="/#contact" label={`Enquire about ${service.title}`} icon="arrow-right" />
                 </Reveal>
               </div>
             </article>

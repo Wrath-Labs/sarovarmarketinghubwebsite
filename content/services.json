@@ -1,167 +1,218 @@
 {
   "_comment": "The /services page. Add or remove entries in 'services' and the page + navigation anchors update automatically.",
-
   "meta": {
     "title": "Services",
     "description": "Social media, performance marketing, SEO, branding, web development and influencer campaigns — delivered by one senior team."
   },
-
   "hero": {
     "eyebrow": "Our services",
-    "heading": "Growth, engineered channel by channel",
-    "highlight": "channel by channel",
-    "subheading": "Pick one service or plug in the whole hub. Either way you get senior operators, weekly momentum and reporting that ties every rupee to an outcome.",
-    "primaryCta": { "label": "Book a Free Strategy Call", "href": "/contact", "icon": "calendar-check" },
-    "secondaryCta": { "label": "See pricing", "href": "#packages", "icon": "arrow-down" },
-    "badges": [
-      { "icon": "users", "label": "120+ brands served" },
-      { "icon": "trending-up", "label": "4.7x average ROAS" },
-      { "icon": "clock", "label": "Under 4h response" }
-    ]
+    "heading": "Real Strategy. Quality Content. Transparent Marketing.",
+    "highlight": "Quality Content",
+    "subheading": "We focus on meaningful content and informed advertising decisions, helping businesses grow their digital presence without relying on fake engagement or empty promises.",
+    "primaryCta": {
+      "label": "Book a Free Strategy Call",
+      "href": "/#contact",
+      "icon": "calendar-check"
+    },
+    "secondaryCta": {
+      "label": "Explore services",
+      "href": "#all-services",
+      "icon": "arrow-down"
+    },
+    "badges": []
   },
-
   "servicesIntro": {
     "eyebrow": "What we offer",
-    "heading": "Six services, one accountable team",
-    "subheading": "Every engagement starts with the same question: what is actually stopping this business from growing right now?"
+    "heading": "Services That Help Your Business Grow",
+    "highlight": "Grow",
+    "subheading": "At Sarovar Marketing Hub, we help local businesses and service providers build a stronger digital presence through quality content, organic marketing, and strategic advertising. We believe effective marketing starts with understanding your business, your audience, and what makes your brand different. From creative ideas, engaging hooks, and scriptwriting to video production, editing, and social media management, we handle the process from start to finish. We focus on building a strong organic foundation before investing in paid ads whenever the strategy allows, helping businesses make more informed decisions about their marketing budgets. With transparent communication, thoughtful planning, and a focus on creative quality, we aim to build lasting growth rather than chase empty views or followers. Your business deserves a strategy, not just another ad campaign."
   },
-
   "services": [
     {
-      "id": "social-media-marketing",
-      "icon": "instagram",
-      "title": "Social Media Marketing",
-      "tagline": "Build a brand people choose to follow",
-      "description": "We run your social presence like a media company — a clear content pillar strategy, a reels-first production rhythm and community management that turns followers into buyers.",
+      "id": "organic-content-smm",
+      "icon": "sprout",
+      "title": "Organic Content & SMM",
+      "tagline": "Strategy, storytelling and organic growth",
+      "description": "We create content strategies built around your audience, brand, and business goals. From attention-grabbing hooks and engaging scripts to relevant visuals and clear messaging, we help your brand connect with the right people and build a stronger organic presence.",
       "image": "/images/service-social.svg",
       "features": [
-        "Content strategy, pillars & monthly calendars",
-        "Short-form video, reels & carousel production",
-        "Copywriting in your brand voice",
-        "Community management & DM handling",
-        "Paid social amplification of top organic",
-        "Monthly performance & growth reporting"
+        "Content strategies built around your audience, brand and business goals",
+        "Attention-grabbing hooks and engaging scripts",
+        "Relevant visuals and clear messaging",
+        "A stronger organic presence with the right people"
       ],
-      "deliverables": ["16–24 posts / month", "8–12 reels / month", "Monthly reporting call"],
-      "idealFor": "D2C brands, personal brands and local businesses building awareness.",
-      "priceFrom": "₹45,000 / month",
       "featured": true
     },
     {
-      "id": "performance-marketing",
+      "id": "social-media-management",
+      "icon": "calendar-days",
+      "title": "Social Media Management",
+      "tagline": "Planning, publishing and consistency",
+      "description": "We manage your social media presence with planned content, engaging captions, consistent posting, and a cohesive brand identity. From content calendars to publishing, we help keep your pages active, professional, and aligned with your business goals while you focus on running your business.",
+      "image": "/images/service-social.svg",
+      "features": [
+        "Planned content and content calendars",
+        "Engaging captions",
+        "Consistent posting and publishing",
+        "A cohesive brand identity across your pages"
+      ],
+      "featured": false
+    },
+    {
+      "id": "meta-ads",
       "icon": "target",
-      "title": "Performance Marketing",
-      "tagline": "Paid media judged on profit, not clicks",
-      "description": "Meta, Google, YouTube and LinkedIn campaigns built around unit economics. We structure accounts for clean learning, then let creative testing do the heavy lifting.",
+      "title": "Meta Ads",
+      "tagline": "Facebook and Instagram advertising",
+      "description": "We create and manage Facebook and Instagram ad campaigns with a focus on strong creatives, relevant messaging, and sensible budget allocation. From lead generation to local brand awareness, we test and refine campaigns based on performance, helping you make informed decisions about your advertising spend.",
       "image": "/images/service-performance.svg",
       "features": [
-        "Account audit & tracking setup (GA4, pixels, CAPI)",
-        "Full-funnel campaign architecture",
-        "Weekly creative testing framework",
-        "Landing page & offer CRO",
-        "Budget pacing & scaling decisions",
-        "Live dashboard with CAC, ROAS & LTV"
+        "Facebook and Instagram ad campaigns",
+        "Strong creatives and relevant messaging",
+        "Sensible budget allocation",
+        "Lead generation and local brand awareness",
+        "Testing and refining based on performance"
       ],
-      "deliverables": ["Weekly creative batch", "Live KPI dashboard", "Fortnightly strategy call"],
-      "idealFor": "Brands spending ₹2L+ per month who need efficiency at scale.",
-      "priceFrom": "₹60,000 / month + ad spend",
       "featured": false
     },
     {
-      "id": "seo-content",
+      "id": "google-ads",
       "icon": "search",
-      "title": "SEO & Content",
-      "tagline": "Traffic you stop renting and start owning",
-      "description": "Technical foundations, topical authority and genuinely useful content. SEO is the channel that keeps paying after you stop spending — if it's built properly.",
-      "image": "/images/service-seo.svg",
+      "title": "Google Ads",
+      "tagline": "Reach people actively searching",
+      "description": "We help your business reach potential customers through targeted Google Ads campaigns. With relevant keyword research, compelling ad copy, location-based targeting where appropriate, and ongoing performance analysis, we work to connect your business with people searching for your products or services.",
+      "image": "/images/service-performance.svg",
       "features": [
-        "Technical audit & Core Web Vitals fixes",
-        "Keyword & search intent mapping",
-        "Content clusters and editorial calendar",
-        "On-page optimisation & internal linking",
-        "Digital PR & authority link building",
-        "Local SEO & Google Business Profile"
+        "Relevant keyword research",
+        "Compelling ad copy",
+        "Location-based targeting where appropriate",
+        "Ongoing performance analysis"
       ],
-      "deliverables": ["4–8 articles / month", "Monthly technical sweep", "Rank & traffic reporting"],
-      "idealFor": "Businesses with a long buying cycle and high-intent search demand.",
-      "priceFrom": "₹50,000 / month",
       "featured": false
     },
     {
-      "id": "branding-design",
-      "icon": "palette",
-      "title": "Branding & Design",
-      "tagline": "Look like the leader of your category",
-      "description": "Positioning, identity and design systems that make a young brand feel established — then campaign creative that carries it across every channel.",
-      "image": "/images/service-branding.svg",
+      "id": "youtube-ads",
+      "icon": "youtube",
+      "title": "YouTube Ads",
+      "tagline": "Video advertising for your audience",
+      "description": "We help businesses promote their products and services through YouTube video advertising. From choosing suitable campaign objectives to developing engaging video creatives and monitoring performance, we focus on reaching relevant audiences and supporting your brand awareness, traffic, or lead-generation goals.",
+      "image": "/images/service-performance.svg",
       "features": [
-        "Positioning & messaging framework",
-        "Logo, identity & type system",
-        "Brand guidelines document",
-        "Packaging & print collateral",
-        "Ad creative & campaign design",
-        "Social & presentation templates"
+        "Choosing suitable campaign objectives",
+        "Engaging video creatives",
+        "Performance monitoring",
+        "Support for brand awareness, traffic or lead-generation goals"
       ],
-      "deliverables": ["Full identity kit", "Brand guidelines PDF", "Editable template pack"],
-      "idealFor": "New launches, rebrands and brands entering modern retail.",
-      "priceFrom": "₹1,20,000 / project",
       "featured": false
     },
     {
-      "id": "web-development",
-      "icon": "monitor-smartphone",
-      "title": "Web & Landing Pages",
-      "tagline": "Sites built to convert, not just to exist",
-      "description": "Fast, responsive, search-friendly websites and landing pages. Designed around the buying decision and wired for clean analytics from launch day.",
-      "image": "/images/service-web.svg",
+      "id": "content-shooting-editing",
+      "icon": "clapperboard",
+      "title": "Content Shooting & Editing",
+      "tagline": "From script to ready-to-post videos",
+      "description": "We turn your ideas into engaging Reels, Shorts, and promotional videos through thoughtful scripting, recording guidance, lighting, and professional editing. We can shoot on location or guide you through recording on your own device, then handle the editing and content preparation for publishing.",
+      "image": "/images/service-social.svg",
       "features": [
-        "Conversion-first UX & wireframing",
-        "Responsive design across every device",
-        "Next.js, WordPress or Shopify build",
-        "Landing pages & funnel flows",
-        "Speed, accessibility & SEO hygiene",
-        "Analytics, events & A/B test setup"
+        "Thoughtful scripting",
+        "Recording guidance and lighting",
+        "On-location shooting, or guidance for recording on your own device",
+        "Professional editing",
+        "Content preparation for publishing"
       ],
-      "deliverables": ["Design + build", "Analytics setup", "30 days post-launch support"],
-      "idealFor": "Brands whose traffic is fine but conversion isn't.",
-      "priceFrom": "₹85,000 / project",
       "featured": false
     },
     {
       "id": "influencer-marketing",
       "icon": "megaphone",
-      "title": "Influencer & Digital PR",
-      "tagline": "Borrow trust that already exists",
-      "description": "Creator partnerships sourced on engagement quality, not follower vanity — plus press placements that make your brand look inevitable.",
+      "title": "Influencer Marketing",
+      "tagline": "Creators who connect you with the right audience",
+      "description": "We help businesses connect with relevant content creators to promote their products and services through authentic, audience-focused campaigns. From influencer selection and campaign planning to content coordination, we focus on building brand awareness, strengthening trust, and reaching potential customers more effectively.",
       "image": "/images/service-influencer.svg",
       "features": [
-        "Creator sourcing, vetting & outreach",
-        "Barter, paid & affiliate structures",
-        "Briefs, scripting & shot direction",
-        "Usage rights for paid amplification",
-        "Digital PR & publication features",
-        "Attribution via codes & landing pages"
+        "Influencer selection",
+        "Campaign planning",
+        "Content coordination",
+        "Building brand awareness and strengthening trust"
       ],
-      "deliverables": ["Creator pipeline", "Monthly collab batch", "Whitelisted ad assets"],
-      "idealFor": "Consumer brands that need social proof fast.",
-      "priceFrom": "₹40,000 / month",
+      "featured": false
+    },
+    {
+      "id": "web-app-development",
+      "icon": "code",
+      "title": "Web & Mobile App Development",
+      "tagline": "Websites that turn visitors into customers",
+      "description": "At Sarovar Marketing Hub, we help businesses establish a strong online presence through modern, responsive, and user-friendly websites. In partnership with [Wrath Labs](https://wrathlabs.in), we offer website design and development solutions tailored to your business goals, focusing on clean design, smooth functionality, and an experience that helps turn visitors into potential customers.",
+      "image": "/images/service-web.svg",
+      "features": [
+        "Modern, responsive, user-friendly websites",
+        "Design and development tailored to your business goals",
+        "Clean design and smooth functionality",
+        "An experience that helps turn visitors into potential customers"
+      ],
+      "featured": false
+    },
+    {
+      "id": "seo",
+      "icon": "search-check",
+      "title": "SEO (Search Engine Optimization)",
+      "tagline": "Be found by people already looking",
+      "description": "We help businesses improve their search engine visibility and attract relevant organic traffic through strategic SEO. In collaboration with [Wrath Labs](https://wrathlabs.in), we offer services including keyword research, on-page optimization, technical SEO, and local SEO to help your business reach potential customers and build a stronger long-term online presence.",
+      "image": "/images/service-seo.svg",
+      "features": [
+        "Keyword research",
+        "On-page optimization",
+        "Technical SEO",
+        "Local SEO"
+      ],
+      "featured": false
+    },
+    {
+      "id": "performance-marketing",
+      "icon": "line-chart",
+      "title": "Performance Marketing",
+      "tagline": "Paid campaigns planned around your goals",
+      "description": "We plan paid campaigns around one question: what does your business actually need from its marketing? We set clear goals, track the right numbers, and review results regularly so your budget goes where it works best. We build on your organic foundation first whenever the strategy allows, and we explain every decision along the way.",
+      "image": "/images/service-performance.svg",
+      "features": [
+        "Clear goals set before any budget is spent",
+        "Tracking of the numbers that matter to your business",
+        "Regular reviews and budget adjustments",
+        "Plain-language reporting on every decision"
+      ],
       "featured": false
     }
   ],
-
   "process": {
     "enabled": true,
     "eyebrow": "Engagement flow",
     "heading": "From first call to first result",
     "subheading": "Same four steps whether you hire us for one channel or all six.",
     "steps": [
-      { "number": "01", "icon": "phone-call", "title": "Discovery call", "description": "30 minutes on your goals, numbers and constraints. You leave with at least one thing to fix, hired or not." },
-      { "number": "02", "icon": "clipboard-list", "title": "Audit & proposal", "description": "We audit your accounts and come back with a scoped plan, timeline and a fixed monthly number." },
-      { "number": "03", "icon": "rocket", "title": "Onboard & launch", "description": "Access, tracking and creative in week one. First campaigns and content live inside two weeks." },
-      { "number": "04", "icon": "line-chart", "title": "Review & scale", "description": "Weekly iteration, monthly reviews. We scale what earns and cut what doesn't, transparently." }
+      {
+        "number": "01",
+        "icon": "phone-call",
+        "title": "Discovery call",
+        "description": "30 minutes on your goals, numbers and constraints. You leave with at least one thing to fix, hired or not."
+      },
+      {
+        "number": "02",
+        "icon": "clipboard-list",
+        "title": "Audit & proposal",
+        "description": "We audit your accounts and come back with a scoped plan, timeline and a fixed monthly number."
+      },
+      {
+        "number": "03",
+        "icon": "rocket",
+        "title": "Onboard & launch",
+        "description": "Access, tracking and creative in week one. First campaigns and content live inside two weeks."
+      },
+      {
+        "number": "04",
+        "icon": "line-chart",
+        "title": "Review & scale",
+        "description": "Weekly iteration, monthly reviews. We scale what earns and cut what doesn't, transparently."
+      }
     ]
   },
-
   "packages": {
     "enabled": true,
     "eyebrow": "Packages",
@@ -184,7 +235,10 @@
           "Monthly reporting call",
           "Shared WhatsApp channel"
         ],
-        "cta": { "label": "Start with Starter", "href": "/contact" }
+        "cta": {
+          "label": "Start with Starter",
+          "href": "/#contact"
+        }
       },
       {
         "name": "Growth",
@@ -202,7 +256,10 @@
           "Fortnightly strategy calls",
           "Named senior strategist"
         ],
-        "cta": { "label": "Scale with Growth", "href": "/contact" }
+        "cta": {
+          "label": "Scale with Growth",
+          "href": "/#contact"
+        }
       },
       {
         "name": "Scale",
@@ -219,42 +276,271 @@
           "Quarterly brand planning workshop",
           "Priority support, same-day replies"
         ],
-        "cta": { "label": "Talk to the founder", "href": "/contact" }
+        "cta": {
+          "label": "Talk to the founder",
+          "href": "/#contact"
+        }
       }
     ]
   },
-
   "addOns": {
     "enabled": true,
     "heading": "Add-ons",
     "subheading": "Bolt any of these onto an existing retainer.",
     "items": [
-      { "icon": "video", "title": "Content shoot day", "price": "₹35,000 / day", "text": "A full day of photo and video capture with direction and edits." },
-      { "icon": "file-text", "title": "Marketing audit", "price": "₹25,000 one-time", "text": "A 30-page teardown of your funnel, ads, site and analytics." },
-      { "icon": "mail", "title": "Email & retention", "price": "₹30,000 / month", "text": "Flows, campaigns and segmentation on Klaviyo or Mailchimp." },
-      { "icon": "presentation", "title": "Team workshop", "price": "₹40,000 one-time", "text": "Half-day training so your in-house team can run what we build." }
+      {
+        "icon": "video",
+        "title": "Content shoot day",
+        "price": "₹35,000 / day",
+        "text": "A full day of photo and video capture with direction and edits."
+      },
+      {
+        "icon": "file-text",
+        "title": "Marketing audit",
+        "price": "₹25,000 one-time",
+        "text": "A 30-page teardown of your funnel, ads, site and analytics."
+      },
+      {
+        "icon": "mail",
+        "title": "Email & retention",
+        "price": "₹30,000 / month",
+        "text": "Flows, campaigns and segmentation on Klaviyo or Mailchimp."
+      },
+      {
+        "icon": "presentation",
+        "title": "Team workshop",
+        "price": "₹40,000 one-time",
+        "text": "Half-day training so your in-house team can run what we build."
+      }
     ]
   },
-
   "faq": {
     "enabled": true,
     "eyebrow": "Service FAQs",
     "heading": "Before you book the call",
     "items": [
-      { "question": "Can we start with just one service?", "answer": "Absolutely. Most clients start with one channel — usually paid social or SEO — and add services once they trust the process. We'll tell you honestly which single channel we'd start with for your business." },
-      { "question": "Is ad spend included in the retainer?", "answer": "No. Ad spend goes directly to Meta, Google or LinkedIn from your own accounts. Our fee covers strategy, creative, management and reporting." },
-      { "question": "How much ad budget do we need to start?", "answer": "For meaningful learning we recommend a minimum of ₹1,00,000 per month in spend for performance marketing. Below that, organic and content usually give you better returns first." },
-      { "question": "Who owns the creative and accounts?", "answer": "You do — always. Ad accounts, pixels, source files, domains and content libraries stay in your name from day one." },
-      { "question": "Do you offer one-off projects?", "answer": "Yes, for branding, websites and launch campaigns. Ongoing channels like SEO and paid media only work as retainers, so we don't sell those as one-offs." }
+      {
+        "question": "Can we start with just one service?",
+        "answer": "Absolutely. Most clients start with one channel — usually paid social or SEO — and add services once they trust the process. We'll tell you honestly which single channel we'd start with for your business."
+      },
+      {
+        "question": "Is ad spend included in the retainer?",
+        "answer": "No. Ad spend goes directly to Meta, Google or LinkedIn from your own accounts. Our fee covers strategy, creative, management and reporting."
+      },
+      {
+        "question": "How much ad budget do we need to start?",
+        "answer": "For meaningful learning we recommend a minimum of ₹1,00,000 per month in spend for performance marketing. Below that, organic and content usually give you better returns first."
+      },
+      {
+        "question": "Who owns the creative and accounts?",
+        "answer": "You do — always. Ad accounts, pixels, source files, domains and content libraries stay in your name from day one."
+      },
+      {
+        "question": "Do you offer one-off projects?",
+        "answer": "Yes, for branding, websites and launch campaigns. Ongoing channels like SEO and paid media only work as retainers, so we don't sell those as one-offs."
+      }
     ]
   },
-
   "cta": {
     "eyebrow": "Next step",
     "heading": "Not sure which service you need?",
     "subheading": "That's exactly what the first call is for. Bring your numbers, we'll tell you where the biggest gap is — and what we'd fix first.",
-    "primaryCta": { "label": "Book a Free Strategy Call", "href": "/contact", "icon": "calendar-check" },
-    "secondaryCta": { "label": "See our work", "href": "/#work", "icon": "arrow-right" },
+    "primaryCta": {
+      "label": "Book a Free Strategy Call",
+      "href": "/#contact",
+      "icon": "calendar-check"
+    },
+    "secondaryCta": {
+      "label": "See our work",
+      "href": "/#work",
+      "icon": "arrow-right"
+    },
     "note": "Free, 30 minutes, no obligation."
+  },
+  "_disabled": {
+    "hero_badges": [
+      {
+        "icon": "users",
+        "label": "120+ brands served"
+      },
+      {
+        "icon": "trending-up",
+        "label": "4.7x average ROAS"
+      },
+      {
+        "icon": "clock",
+        "label": "Under 4h response"
+      }
+    ],
+    "priceFrom": {
+      "social-media-marketing": "₹45,000 / month",
+      "performance-marketing": "₹60,000 / month + ad spend",
+      "seo-content": "₹50,000 / month",
+      "branding-design": "₹1,20,000 / project",
+      "web-development": "₹85,000 / project",
+      "influencer-marketing": "₹40,000 / month"
+    },
+    "old_services": [
+      {
+        "id": "social-media-marketing",
+        "icon": "instagram",
+        "title": "Social Media Marketing",
+        "tagline": "Build a brand people choose to follow",
+        "description": "We run your social presence like a media company — a clear content pillar strategy, a reels-first production rhythm and community management that turns followers into buyers.",
+        "image": "/images/service-social.svg",
+        "features": [
+          "Content strategy, pillars & monthly calendars",
+          "Short-form video, reels & carousel production",
+          "Copywriting in your brand voice",
+          "Community management & DM handling",
+          "Paid social amplification of top organic",
+          "Monthly performance & growth reporting"
+        ],
+        "deliverables": [
+          "16–24 posts / month",
+          "8–12 reels / month",
+          "Monthly reporting call"
+        ],
+        "idealFor": "D2C brands, personal brands and local businesses building awareness.",
+        "featured": true
+      },
+      {
+        "id": "performance-marketing",
+        "icon": "target",
+        "title": "Performance Marketing",
+        "tagline": "Paid media judged on profit, not clicks",
+        "description": "Meta, Google, YouTube and LinkedIn campaigns built around unit economics. We structure accounts for clean learning, then let creative testing do the heavy lifting.",
+        "image": "/images/service-performance.svg",
+        "features": [
+          "Account audit & tracking setup (GA4, pixels, CAPI)",
+          "Full-funnel campaign architecture",
+          "Weekly creative testing framework",
+          "Landing page & offer CRO",
+          "Budget pacing & scaling decisions",
+          "Live dashboard with CAC, ROAS & LTV"
+        ],
+        "deliverables": [
+          "Weekly creative batch",
+          "Live KPI dashboard",
+          "Fortnightly strategy call"
+        ],
+        "idealFor": "Brands spending ₹2L+ per month who need efficiency at scale.",
+        "featured": false
+      },
+      {
+        "id": "seo-content",
+        "icon": "search",
+        "title": "SEO & Content",
+        "tagline": "Traffic you stop renting and start owning",
+        "description": "Technical foundations, topical authority and genuinely useful content. SEO is the channel that keeps paying after you stop spending — if it's built properly.",
+        "image": "/images/service-seo.svg",
+        "features": [
+          "Technical audit & Core Web Vitals fixes",
+          "Keyword & search intent mapping",
+          "Content clusters and editorial calendar",
+          "On-page optimisation & internal linking",
+          "Digital PR & authority link building",
+          "Local SEO & Google Business Profile"
+        ],
+        "deliverables": [
+          "4–8 articles / month",
+          "Monthly technical sweep",
+          "Rank & traffic reporting"
+        ],
+        "idealFor": "Businesses with a long buying cycle and high-intent search demand.",
+        "featured": false
+      },
+      {
+        "id": "branding-design",
+        "icon": "palette",
+        "title": "Branding & Design",
+        "tagline": "Look like the leader of your category",
+        "description": "Positioning, identity and design systems that make a young brand feel established — then campaign creative that carries it across every channel.",
+        "image": "/images/service-branding.svg",
+        "features": [
+          "Positioning & messaging framework",
+          "Logo, identity & type system",
+          "Brand guidelines document",
+          "Packaging & print collateral",
+          "Ad creative & campaign design",
+          "Social & presentation templates"
+        ],
+        "deliverables": [
+          "Full identity kit",
+          "Brand guidelines PDF",
+          "Editable template pack"
+        ],
+        "idealFor": "New launches, rebrands and brands entering modern retail.",
+        "featured": false
+      },
+      {
+        "id": "web-development",
+        "icon": "monitor-smartphone",
+        "title": "Web & Landing Pages",
+        "tagline": "Sites built to convert, not just to exist",
+        "description": "Fast, responsive, search-friendly websites and landing pages. Designed around the buying decision and wired for clean analytics from launch day.",
+        "image": "/images/service-web.svg",
+        "features": [
+          "Conversion-first UX & wireframing",
+          "Responsive design across every device",
+          "Next.js, WordPress or Shopify build",
+          "Landing pages & funnel flows",
+          "Speed, accessibility & SEO hygiene",
+          "Analytics, events & A/B test setup"
+        ],
+        "deliverables": [
+          "Design + build",
+          "Analytics setup",
+          "30 days post-launch support"
+        ],
+        "idealFor": "Brands whose traffic is fine but conversion isn't.",
+        "featured": false
+      },
+      {
+        "id": "influencer-marketing",
+        "icon": "megaphone",
+        "title": "Influencer & Digital PR",
+        "tagline": "Borrow trust that already exists",
+        "description": "Creator partnerships sourced on engagement quality, not follower vanity — plus press placements that make your brand look inevitable.",
+        "image": "/images/service-influencer.svg",
+        "features": [
+          "Creator sourcing, vetting & outreach",
+          "Barter, paid & affiliate structures",
+          "Briefs, scripting & shot direction",
+          "Usage rights for paid amplification",
+          "Digital PR & publication features",
+          "Attribution via codes & landing pages"
+        ],
+        "deliverables": [
+          "Creator pipeline",
+          "Monthly collab batch",
+          "Whitelisted ad assets"
+        ],
+        "idealFor": "Consumer brands that need social proof fast.",
+        "featured": false
+      }
+    ],
+    "old_hero": {
+      "eyebrow": "Our services",
+      "heading": "Real Strategy. Quality Content. Transparent Marketing.",
+      "highlight": "Quality Content",
+      "subheading": "We focus on meaningful content and informed advertising decisions, helping businesses grow their digital presence without relying on fake engagement or empty promises.",
+      "primaryCta": {
+        "label": "Book a Free Strategy Call",
+        "href": "/#contact",
+        "icon": "calendar-check"
+      },
+      "secondaryCta": {
+        "label": "Explore services",
+        "href": "#all-services",
+        "icon": "arrow-down"
+      },
+      "badges": []
+    },
+    "old_servicesIntro": {
+      "eyebrow": "What we offer",
+      "heading": "Six services, one accountable team",
+      "subheading": "Every engagement starts with the same question: what is actually stopping this business from growing right now?"
+    }
   }
 }
