@@ -1,3 +1,8 @@
+import { notFound } from 'next/navigation';
+
+/* Contact page disabled — contact now lives in the landing page's #contact section.
+   Original implementation kept below; remove the stub and uncomment to restore.
+
 import type { Metadata } from 'next';
 
 import PageHero from '@/components/sections/PageHero';
@@ -46,4 +51,10 @@ export default function ContactPage() {
       <CtaBanner data={contact.cta} />
     </>
   );
+}
+
+*/
+
+export default function ContactPage() {
+  notFound();
 }

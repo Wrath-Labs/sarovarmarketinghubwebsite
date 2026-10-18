@@ -6,6 +6,8 @@ import { Stagger, StaggerItem } from '@/components/ui/Stagger';
 import Icon from '@/components/ui/Icon';
 import TiltCard from '@/components/ui/TiltCard';
 import { Blobs } from '@/components/ui/Decor';
+import Button from '@/components/ui/Button';
+import Reveal from '@/components/ui/Reveal';
 import { home } from '@/lib/content';
 
 export default function WhyUs() {
@@ -25,9 +27,12 @@ export default function WhyUs() {
         icon="award"
       />
 
-      <Stagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <Stagger className="mt-14 grid gap-5 sm:grid-cols-2">
         {data.items.map((item: any, i: number) => (
-          <StaggerItem key={item.title} className="h-full">
+          <StaggerItem
+            key={item.title}
+            className={`h-full ${data.items.length % 2 === 1 && i === data.items.length - 1 ? 'sm:col-span-2' : ''}`}
+          >
             <TiltCard className="group h-full" intensity={4} glow={false}>
               <div className="relative flex h-full flex-col overflow-hidden rounded-card border border-white/10 bg-white/[0.035] p-7 backdrop-blur-sm transition-all duration-500 hover:border-white/25 hover:bg-white/[0.07] sm:p-8">
                 {/* number watermark */}
@@ -58,6 +63,12 @@ export default function WhyUs() {
           </StaggerItem>
         ))}
       </Stagger>
+
+      {data.cta && (
+        <Reveal delay={0.1} className="mt-12 flex justify-center">
+          <Button href={data.cta.href} label={data.cta.label} icon={data.cta.icon} variant="light" size="lg" />
+        </Reveal>
+      )}
     </Section>
   );
 }

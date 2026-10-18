@@ -10,12 +10,13 @@ import Button from '@/components/ui/Button';
 import Icon from '@/components/ui/Icon';
 import TiltCard from '@/components/ui/TiltCard';
 import { GridPattern } from '@/components/ui/Decor';
-import { home } from '@/lib/content';
+import { home, services } from '@/lib/content';
 import { cn } from '@/lib/utils';
 
 export default function ServicesPreview() {
   const data = home.services;
-  if (!data?.items?.length) return null;
+  const items: any[] = services.services || [];
+  if (!data || !items.length) return null;
 
   return (
     <Section id="services" tone="page">
@@ -30,7 +31,7 @@ export default function ServicesPreview() {
       />
 
       <Stagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 sm:gap-6">
-        {data.items.map((service: any, i: number) => (
+        {items.map((service: any, i: number) => (
           <StaggerItem key={service.id} className="h-full">
             <TiltCard className="group h-full" intensity={5}>
               <Link
@@ -76,9 +77,10 @@ export default function ServicesPreview() {
                     service.featured ? 'text-white/75' : 'text-body',
                   )}
                 >
-                  {service.description}
+                  {service.tagline}
                 </p>
 
+                {/* Point-by-point detail lives on /services; landing shows name + one-liner only.
                 {service.bullets?.length > 0 && (
                   <ul className="relative mt-6 flex flex-col gap-2.5">
                     {service.bullets.map((b: string) => (
@@ -99,6 +101,7 @@ export default function ServicesPreview() {
                     ))}
                   </ul>
                 )}
+                */}
 
                 <span
                   className={cn(

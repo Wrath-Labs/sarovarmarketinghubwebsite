@@ -19,7 +19,7 @@ export default function NotFound() {
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3.5">
           <Button href="/" label="Back to home" icon="arrow-left" iconPosition="left" size="lg" />
-          <Button href="/contact" label="Contact us" icon="arrow-right" variant="secondary" size="lg" />
+          <Button href="/#contact" label="Contact us" icon="arrow-right" variant="secondary" size="lg" />
         </div>
         <p className="mt-8 text-[0.8125rem] text-body/70">
           Or email us at{' '}

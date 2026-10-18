@@ -1,211 +1,209 @@
 {
   "_comment": "The entire home page. 'sectionOrder' controls what appears and in what order — delete or reorder entries freely.",
-
   "meta": {
     "title": "Full-Funnel Growth Marketing Agency",
     "description": "Strategy, creative and performance marketing under one roof. Sarovar Marketing Hub helps ambitious brands turn attention into predictable revenue."
   },
-
   "sectionOrder": [
     "hero",
-    "logos",
     "services",
-    "about",
     "whyUs",
-    "stats",
-    "work",
-    "process",
-    "testimonials",
-    "faq",
     "contact"
   ],
-
   "hero": {
     "badge": {
       "enabled": true,
       "icon": "sparkles",
-      "text": "Full-funnel growth partner since 2019"
+      "text": "Full-funnel growth partner since 2024"
     },
     "headingLine1": "We build brands that",
     "headingHighlight": "refuse to be ignored",
     "headingLine2": "",
     "subheading": "Sarovar Marketing Hub is a full-funnel marketing agency. We blend sharp strategy, scroll-stopping creative and data-obsessed performance marketing to turn attention into revenue you can measure.",
-    "primaryCta": { "label": "Book a Free Strategy Call", "href": "/contact", "icon": "calendar-check" },
-    "secondaryCta": { "label": "See Our Work", "href": "#work", "icon": "play" },
-    "trustLine": "Trusted by 120+ founders, D2C brands and service businesses",
-    "quickStats": [
-      { "value": "120+", "label": "Brands scaled" },
-      { "value": "4.7x", "label": "Average ROAS" },
-      { "value": "38M+", "label": "Impressions driven" }
-    ],
+    "primaryCta": {
+      "label": "Book a Free Strategy Call",
+      "href": "/#contact",
+      "icon": "calendar-check"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "#services",
+      "icon": "arrow-down"
+    },
+    "trustLine": "",
+    "quickStats": [],
     "image": "/images/hero-visual.svg",
     "imageAlt": "Sarovar Marketing Hub growth dashboard",
-    "floatingCards": [
-      { "icon": "trending-up", "title": "+218%", "subtitle": "Revenue in 6 months", "position": "top-left" },
-      { "icon": "users", "title": "12.4k", "subtitle": "New followers / month", "position": "bottom-right" }
-    ],
+    "floatingCards": [],
     "scrollHint": "Scroll to explore"
   },
-
   "logos": {
     "enabled": true,
     "heading": "Brands that grow with us",
     "speedSeconds": 28,
     "items": [
-      { "name": "Northlane", "image": "/images/logo-1.svg" },
-      { "name": "Verdant Co.", "image": "/images/logo-2.svg" },
-      { "name": "Lumen Studio", "image": "/images/logo-3.svg" },
-      { "name": "Orbit Wear", "image": "/images/logo-4.svg" },
-      { "name": "Saffron & Co", "image": "/images/logo-5.svg" },
-      { "name": "Kite Finance", "image": "/images/logo-6.svg" },
-      { "name": "Bluepeak", "image": "/images/logo-7.svg" },
-      { "name": "Terra Foods", "image": "/images/logo-8.svg" }
-    ]
-  },
-
-  "services": {
-    "eyebrow": "What we do",
-    "heading": "Every lever your growth needs, in one hub",
-    "highlight": "one hub",
-    "subheading": "No juggling five vendors. Strategy, creative, media buying and web live under one roof — so nothing gets lost between teams.",
-    "cta": { "label": "Explore all services", "href": "/services", "icon": "arrow-right" },
-    "items": [
       {
-        "id": "social-media-marketing",
-        "icon": "instagram",
-        "title": "Social Media Marketing",
-        "description": "Content calendars, reels, community management and paid social that build a brand people actually follow.",
-        "bullets": ["Content strategy & calendars", "Short-form video & reels", "Community management"],
-        "featured": true
+        "name": "Northlane",
+        "image": "/images/logo-1.svg"
       },
       {
-        "id": "performance-marketing",
-        "icon": "target",
-        "title": "Performance Marketing",
-        "description": "Meta, Google and YouTube campaigns engineered around CAC, ROAS and contribution margin — not vanity clicks.",
-        "bullets": ["Meta & Google Ads", "Creative testing frameworks", "Funnel & landing page CRO"],
-        "featured": false
+        "name": "Verdant Co.",
+        "image": "/images/logo-2.svg"
       },
       {
-        "id": "seo-content",
-        "icon": "search",
-        "title": "SEO & Content",
-        "description": "Technical fixes, topical authority and content that compounds into traffic you don't have to keep paying for.",
-        "bullets": ["Technical & on-page SEO", "Content clusters", "Local & Google Business"],
-        "featured": false
+        "name": "Lumen Studio",
+        "image": "/images/logo-3.svg"
       },
       {
-        "id": "branding-design",
-        "icon": "palette",
-        "title": "Branding & Design",
-        "description": "Identity, packaging and campaign design that makes a young brand look like the category leader.",
-        "bullets": ["Logo & identity systems", "Brand guidelines", "Campaign & ad creative"],
-        "featured": false
+        "name": "Orbit Wear",
+        "image": "/images/logo-4.svg"
       },
       {
-        "id": "web-development",
-        "icon": "monitor-smartphone",
-        "title": "Web & Landing Pages",
-        "description": "Fast, responsive websites and conversion-first landing pages built to turn traffic into enquiries.",
-        "bullets": ["Website design & build", "Landing pages & funnels", "Speed & Core Web Vitals"],
-        "featured": false
+        "name": "Saffron & Co",
+        "image": "/images/logo-5.svg"
       },
       {
-        "id": "influencer-marketing",
-        "icon": "megaphone",
-        "title": "Influencer & PR",
-        "description": "Creator partnerships and press placements that borrow trust and put your brand in the right feeds.",
-        "bullets": ["Creator sourcing & vetting", "Barter & paid collabs", "Digital PR & features"],
-        "featured": false
+        "name": "Kite Finance",
+        "image": "/images/logo-6.svg"
+      },
+      {
+        "name": "Bluepeak",
+        "image": "/images/logo-7.svg"
+      },
+      {
+        "name": "Terra Foods",
+        "image": "/images/logo-8.svg"
       }
     ]
   },
-
+  "services": {
+    "eyebrow": "What we do",
+    "heading": "Services That Help Your Business Grow",
+    "highlight": "Grow",
+    "subheading": "Real Strategy. Quality Content. Transparent Marketing. We focus on meaningful content and informed advertising decisions, helping businesses grow their digital presence without relying on fake engagement or empty promises.",
+    "cta": {
+      "label": "Explore all services",
+      "href": "/services",
+      "icon": "arrow-right"
+    }
+  },
   "about": {
     "eyebrow": "About us",
     "heading": "A marketing hub built the way founders wish agencies worked",
     "highlight": "founders wish",
     "paragraphs": [
-      "Sarovar Marketing Hub started in 2019 with one stubborn belief: marketing should be accountable. Not a monthly deck full of impressions, but a clear line between what we did and what your business earned.",
-      "Today we're a compact senior team of strategists, media buyers, designers and developers. Small enough that you speak to the people doing the work, sharp enough to run campaigns for brands doing crores in revenue."
+      "Sarovar Marketing Hub started in 2024 with one stubborn belief: marketing should be accountable. Not a monthly deck full of impressions, but a clear line between what we did and what your business earned.",
+      "We're a compact team of strategists, media buyers, designers and developers, working remotely from Delhi, India. Small enough that you speak to the people doing the work."
     ],
     "signature": {
-      "enabled": true,
+      "enabled": false,
       "name": "Dipanshu Sarovar",
       "role": "Founder & Growth Lead",
       "quote": "You don't need more marketing. You need marketing that compounds.",
       "image": "/images/founder.svg"
     },
     "highlights": [
-      { "icon": "user-round-check", "title": "Senior-only team", "text": "No interns learning on your ad budget." },
-      { "icon": "line-chart", "title": "Revenue-first reporting", "text": "Dashboards tied to pipeline, not likes." },
-      { "icon": "message-circle", "title": "One WhatsApp away", "text": "Direct access to your strategist, always." },
-      { "icon": "repeat", "title": "Test, learn, scale", "text": "Weekly creative and audience iteration." }
+      {
+        "icon": "user-round-check",
+        "title": "Senior-only team",
+        "text": "No interns learning on your ad budget."
+      },
+      {
+        "icon": "line-chart",
+        "title": "Revenue-first reporting",
+        "text": "Dashboards tied to pipeline, not likes."
+      },
+      {
+        "icon": "message-circle",
+        "title": "One WhatsApp away",
+        "text": "Direct access to your strategist, always."
+      },
+      {
+        "icon": "repeat",
+        "title": "Test, learn, scale",
+        "text": "Weekly creative and audience iteration."
+      }
     ],
     "image": "/images/about-team.svg",
     "imageAlt": "The Sarovar Marketing Hub team at work",
-    "imageBadge": { "icon": "award", "title": "6 years", "subtitle": "of compounding growth" },
-    "cta": { "label": "Work with us", "href": "/contact", "icon": "arrow-right" }
+    "imageBadge": null,
+    "cta": {
+      "label": "Work with us",
+      "href": "/#contact",
+      "icon": "arrow-right"
+    }
   },
-
   "whyUs": {
-    "eyebrow": "Why Sarovar",
-    "heading": "Why brands stay with us for years, not months",
-    "highlight": "years, not months",
-    "subheading": "Most agencies sell you reach. We sell you a system — and we stay accountable to the numbers it produces.",
+    "eyebrow": "Why Choose Sarovar Marketing Hub?",
+    "heading": "Smarter Marketing. Better Use of Your Budget.",
+    "highlight": "Better Use of Your Budget.",
+    "subheading": "We believe marketing should start with a plan—not an invoice.",
     "items": [
       {
-        "icon": "gauge",
-        "title": "Numbers over adjectives",
-        "description": "Every campaign ships with a scorecard: CAC, ROAS, CPL, LTV. If a channel isn't earning, we say so before you ask.",
-        "metric": "100% transparent reporting"
+        "icon": "sprout",
+        "title": "Organic First. Paid Ads with a Purpose.",
+        "description": "We prioritise organic marketing to help businesses build visibility, trust, and a strong content foundation. When paid advertising makes sense, we use it strategically to support your goals."
       },
       {
-        "icon": "zap",
-        "title": "Speed that compounds",
-        "description": "New creative every week, not every quarter. Faster iteration means faster learning and cheaper results over time.",
-        "metric": "Weekly creative sprints"
+        "icon": "clapperboard",
+        "title": "Creatives That Make a Difference",
+        "description": "Your hook, script, visuals, editing, and message influence whether people stop scrolling or move on. We focus on purposeful creatives designed around your audience—not just content for the sake of posting."
       },
       {
-        "icon": "layers",
-        "title": "Full-funnel by default",
-        "description": "Awareness, consideration and retention are planned together, so your ads, content and site tell one story.",
-        "metric": "5 channels, one plan"
+        "icon": "wallet",
+        "title": "Your Budget Deserves a Strategy",
+        "description": "Small and growing businesses cannot afford to waste money on experiments without direction. We plan around your business goals, audience, and actual capacity to invest."
       },
       {
-        "icon": "handshake",
-        "title": "Partner, not vendor",
-        "description": "We sit in your pricing, offer and retention conversations. Better inputs make marketing dramatically easier.",
-        "metric": "Avg. 26-month retainer"
+        "icon": "graduation-cap",
+        "title": "Full Transparency. Real Education.",
+        "description": "We explain what we are doing and why, in simple language, so you always know where your money is going. By educating our clients, we help protect you from common marketing scams."
       },
       {
         "icon": "eye",
-        "title": "No lock-in games",
-        "description": "You own every ad account, pixel, domain and asset from day one. Stay because it works, not because you're stuck.",
-        "metric": "You own everything"
-      },
-      {
-        "icon": "clock",
-        "title": "Replies in hours",
-        "description": "A shared channel with your actual strategist. No ticket queues, no account-manager telephone game.",
-        "metric": "< 4h response time"
+        "title": "Less Wastage. More Clarity.",
+        "description": "No fake followers, no empty promises, and no unnecessary spending just to make a campaign look busy."
       }
-    ]
+    ],
+    "cta": {
+      "label": "Read more about our approach",
+      "href": "/why-us",
+      "icon": "arrow-right"
+    }
   },
-
   "stats": {
-    "enabled": true,
+    "enabled": false,
     "eyebrow": "By the numbers",
     "heading": "Six years, measured honestly",
     "note": "Averages across active retainer clients, last 12 months.",
     "items": [
-      { "value": 120, "suffix": "+", "label": "Brands scaled", "icon": "rocket" },
-      { "value": 4.7, "suffix": "x", "label": "Average ROAS", "icon": "trending-up", "decimals": 1 },
-      { "value": 38, "suffix": "M+", "label": "Impressions driven", "icon": "eye" },
-      { "value": 96, "suffix": "%", "label": "Client retention", "icon": "heart-handshake" }
+      {
+        "value": 120,
+        "suffix": "+",
+        "label": "Brands scaled",
+        "icon": "rocket"
+      },
+      {
+        "value": 4.7,
+        "suffix": "x",
+        "label": "Average ROAS",
+        "icon": "trending-up",
+        "decimals": 1
+      },
+      {
+        "value": 38,
+        "suffix": "M+",
+        "label": "Impressions driven",
+        "icon": "eye"
+      },
+      {
+        "value": 96,
+        "suffix": "%",
+        "label": "Client retention",
+        "icon": "heart-handshake"
+      }
     ]
   },
-
   "work": {
     "eyebrow": "My work",
     "heading": "Campaigns we're proud to put our name on",
@@ -213,89 +211,152 @@
     "subheading": "A snapshot of recent engagements — the brief, the move we made, and what it earned.",
     "filtersEnabled": true,
     "allLabel": "All work",
-    "cta": { "label": "Start your project", "href": "/contact", "icon": "arrow-right" },
+    "cta": {
+      "label": "Start your project",
+      "href": "/#contact",
+      "icon": "arrow-right"
+    },
     "items": [
       {
         "title": "Northlane Apparel",
         "category": "D2C / Performance",
-        "tags": ["Meta Ads", "Creative", "CRO"],
+        "tags": [
+          "Meta Ads",
+          "Creative",
+          "CRO"
+        ],
         "image": "/images/work-1.svg",
         "summary": "Rebuilt the creative engine and funnel for a premium apparel label heading into peak season.",
         "results": [
-          { "value": "+218%", "label": "Revenue in 6 months" },
-          { "value": "5.9x", "label": "Blended ROAS" }
+          {
+            "value": "+218%",
+            "label": "Revenue in 6 months"
+          },
+          {
+            "value": "5.9x",
+            "label": "Blended ROAS"
+          }
         ],
-        "link": "/contact",
+        "link": "/#contact",
         "linkLabel": "Discuss a similar project"
       },
       {
         "title": "Verdant Wellness",
         "category": "SEO / Content",
-        "tags": ["SEO", "Content", "Digital PR"],
+        "tags": [
+          "SEO",
+          "Content",
+          "Digital PR"
+        ],
         "image": "/images/work-2.svg",
         "summary": "Built topical authority around 40 high-intent keywords for a supplements brand with zero organic base.",
         "results": [
-          { "value": "0 → 74k", "label": "Monthly organic sessions" },
-          { "value": "31%", "label": "Of total revenue from SEO" }
+          {
+            "value": "0 → 74k",
+            "label": "Monthly organic sessions"
+          },
+          {
+            "value": "31%",
+            "label": "Of total revenue from SEO"
+          }
         ],
-        "link": "/contact",
+        "link": "/#contact",
         "linkLabel": "Discuss a similar project"
       },
       {
         "title": "Lumen Interiors",
         "category": "Lead Gen",
-        "tags": ["Google Ads", "Landing Pages", "CRM"],
+        "tags": [
+          "Google Ads",
+          "Landing Pages",
+          "CRM"
+        ],
         "image": "/images/work-3.svg",
         "summary": "Replaced a leaky enquiry form with a qualified, scored lead funnel for a high-ticket interiors studio.",
         "results": [
-          { "value": "-62%", "label": "Cost per qualified lead" },
-          { "value": "3.4x", "label": "Sales-qualified volume" }
+          {
+            "value": "-62%",
+            "label": "Cost per qualified lead"
+          },
+          {
+            "value": "3.4x",
+            "label": "Sales-qualified volume"
+          }
         ],
-        "link": "/contact",
+        "link": "/#contact",
         "linkLabel": "Discuss a similar project"
       },
       {
         "title": "Orbit Wear",
         "category": "Social / Branding",
-        "tags": ["Social", "Reels", "Influencer"],
+        "tags": [
+          "Social",
+          "Reels",
+          "Influencer"
+        ],
         "image": "/images/work-4.svg",
         "summary": "Turned a quiet streetwear page into a community with a reels-first content engine and creator seeding.",
         "results": [
-          { "value": "9k → 148k", "label": "Instagram followers" },
-          { "value": "42%", "label": "Of orders from social" }
+          {
+            "value": "9k → 148k",
+            "label": "Instagram followers"
+          },
+          {
+            "value": "42%",
+            "label": "Of orders from social"
+          }
         ],
-        "link": "/contact",
+        "link": "/#contact",
         "linkLabel": "Discuss a similar project"
       },
       {
         "title": "Kite Finance",
         "category": "Lead Gen",
-        "tags": ["LinkedIn", "Webinars", "Nurture"],
+        "tags": [
+          "LinkedIn",
+          "Webinars",
+          "Nurture"
+        ],
         "image": "/images/work-5.svg",
         "summary": "Positioned a fintech advisory as the category expert and built a webinar-led pipeline motion.",
         "results": [
-          { "value": "+310%", "label": "Demo requests" },
-          { "value": "₹1.2Cr", "label": "Pipeline in 2 quarters" }
+          {
+            "value": "+310%",
+            "label": "Demo requests"
+          },
+          {
+            "value": "₹1.2Cr",
+            "label": "Pipeline in 2 quarters"
+          }
         ],
-        "link": "/contact",
+        "link": "/#contact",
         "linkLabel": "Discuss a similar project"
       },
       {
         "title": "Saffron & Co",
         "category": "D2C / Performance",
-        "tags": ["Branding", "Packaging", "Web"],
+        "tags": [
+          "Branding",
+          "Packaging",
+          "Web"
+        ],
         "image": "/images/work-6.svg",
         "summary": "Full rebrand and Shopify rebuild for a gourmet foods label entering modern retail.",
         "results": [
-          { "value": "+87%", "label": "Conversion rate" },
-          { "value": "2.6x", "label": "Average order value" }
+          {
+            "value": "+87%",
+            "label": "Conversion rate"
+          },
+          {
+            "value": "2.6x",
+            "label": "Average order value"
+          }
         ],
-        "link": "/contact",
+        "link": "/#contact",
         "linkLabel": "Discuss a similar project"
       }
     ]
   },
-
   "process": {
     "enabled": true,
     "eyebrow": "How we work",
@@ -333,7 +394,6 @@
       }
     ]
   },
-
   "testimonials": {
     "eyebrow": "Testimonials",
     "heading": "What our clients actually say",
@@ -384,7 +444,6 @@
       }
     ]
   },
-
   "faq": {
     "enabled": true,
     "eyebrow": "Questions",
@@ -412,20 +471,426 @@
       }
     ]
   },
-
   "contact": {
     "eyebrow": "Let's talk",
     "heading": "Tell us what you're trying to grow",
     "highlight": "grow",
     "subheading": "A 30-minute call, no pitch deck. We'll tell you what we'd do first, whether or not you hire us.",
-    "primaryCta": { "label": "Book a Free Strategy Call", "href": "/contact", "icon": "calendar-check" },
-    "secondaryCta": { "label": "WhatsApp us", "href": "#whatsapp", "icon": "message-circle" },
+    "primaryCta": {
+      "label": "Email us",
+      "href": "mailto:sarovarmarketinghub@gmail.com",
+      "icon": "mail"
+    },
+    "secondaryCta": {
+      "label": "WhatsApp us · +91 85338 93530",
+      "href": "#whatsapp",
+      "icon": "message-circle"
+    },
     "points": [
-      { "icon": "clock", "text": "30 minutes, straight to the point" },
-      { "icon": "file-check", "text": "A free audit of your current funnel" },
-      { "icon": "shield-check", "text": "No obligation, no hard sell" }
+      {
+        "icon": "clock",
+        "text": "30 minutes, straight to the point"
+      },
+      {
+        "icon": "file-check",
+        "text": "A free audit of your current funnel"
+      },
+      {
+        "icon": "shield-check",
+        "text": "No obligation, no hard sell"
+      }
     ],
     "showFormPreview": true,
-    "formNote": "Prefer to write? Use the form and we'll reply within 24 hours."
+    "formNote": ""
+  },
+  "_disabled": {
+    "hero": {
+      "trustLine": "Trusted by 120+ founders, D2C brands and service businesses",
+      "quickStats": [
+        {
+          "value": "120+",
+          "label": "Brands scaled"
+        },
+        {
+          "value": "4.7x",
+          "label": "Average ROAS"
+        },
+        {
+          "value": "38M+",
+          "label": "Impressions driven"
+        }
+      ],
+      "floatingCards": [
+        {
+          "icon": "trending-up",
+          "title": "+218%",
+          "subtitle": "Revenue in 6 months",
+          "position": "top-left"
+        },
+        {
+          "icon": "users",
+          "title": "12.4k",
+          "subtitle": "New followers / month",
+          "position": "bottom-right"
+        }
+      ]
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "heading": "What our clients actually say",
+      "highlight": "actually",
+      "subheading": "Unedited words from founders and marketing leads we work with every week.",
+      "autoplay": true,
+      "autoplaySeconds": 7,
+      "items": [
+        {
+          "quote": "We'd burned through two agencies before Sarovar. The difference was obvious in week two — they questioned our offer before touching our ad spend. Revenue tripled in seven months and we finally understand why.",
+          "name": "Rhea Kapoor",
+          "role": "Founder",
+          "company": "Northlane Apparel",
+          "avatar": "/images/avatar-1.svg",
+          "rating": 5
+        },
+        {
+          "quote": "Our organic traffic went from nothing to our single biggest channel. What I value most is that they never overpromised — every forecast they gave me landed within a few percent.",
+          "name": "Aditya Menon",
+          "role": "Co-founder",
+          "company": "Verdant Wellness",
+          "avatar": "/images/avatar-2.svg",
+          "rating": 5
+        },
+        {
+          "quote": "The reporting alone was worth the retainer. For the first time I could see exactly which campaign produced which booking. Cost per qualified lead dropped by more than half.",
+          "name": "Sneha Iyer",
+          "role": "Marketing Head",
+          "company": "Lumen Interiors",
+          "avatar": "/images/avatar-3.svg",
+          "rating": 5
+        },
+        {
+          "quote": "They treat our brand like their own. Reels, community, creator collabs — all handled with taste. We went from 9k to 148k followers without buying a single fake number.",
+          "name": "Kabir Shah",
+          "role": "Brand Director",
+          "company": "Orbit Wear",
+          "avatar": "/images/avatar-4.svg",
+          "rating": 5
+        },
+        {
+          "quote": "Responsive, senior and genuinely strategic. In a market full of agencies selling dashboards, Sarovar sells outcomes — and then delivers them quarter after quarter.",
+          "name": "Meera Nair",
+          "role": "VP Growth",
+          "company": "Kite Finance",
+          "avatar": "/images/avatar-5.svg",
+          "rating": 5
+        }
+      ]
+    },
+    "logos": {
+      "enabled": true,
+      "heading": "Brands that grow with us",
+      "speedSeconds": 28,
+      "items": [
+        {
+          "name": "Northlane",
+          "image": "/images/logo-1.svg"
+        },
+        {
+          "name": "Verdant Co.",
+          "image": "/images/logo-2.svg"
+        },
+        {
+          "name": "Lumen Studio",
+          "image": "/images/logo-3.svg"
+        },
+        {
+          "name": "Orbit Wear",
+          "image": "/images/logo-4.svg"
+        },
+        {
+          "name": "Saffron & Co",
+          "image": "/images/logo-5.svg"
+        },
+        {
+          "name": "Kite Finance",
+          "image": "/images/logo-6.svg"
+        },
+        {
+          "name": "Bluepeak",
+          "image": "/images/logo-7.svg"
+        },
+        {
+          "name": "Terra Foods",
+          "image": "/images/logo-8.svg"
+        }
+      ]
+    },
+    "stats": {
+      "enabled": false,
+      "eyebrow": "By the numbers",
+      "heading": "Six years, measured honestly",
+      "note": "Averages across active retainer clients, last 12 months.",
+      "items": [
+        {
+          "value": 120,
+          "suffix": "+",
+          "label": "Brands scaled",
+          "icon": "rocket"
+        },
+        {
+          "value": 4.7,
+          "suffix": "x",
+          "label": "Average ROAS",
+          "icon": "trending-up",
+          "decimals": 1
+        },
+        {
+          "value": 38,
+          "suffix": "M+",
+          "label": "Impressions driven",
+          "icon": "eye"
+        },
+        {
+          "value": 96,
+          "suffix": "%",
+          "label": "Client retention",
+          "icon": "heart-handshake"
+        }
+      ]
+    },
+    "work": {
+      "eyebrow": "My work",
+      "heading": "Campaigns we're proud to put our name on",
+      "highlight": "proud",
+      "subheading": "A snapshot of recent engagements — the brief, the move we made, and what it earned.",
+      "filtersEnabled": true,
+      "allLabel": "All work",
+      "cta": {
+        "label": "Start your project",
+        "href": "/#contact",
+        "icon": "arrow-right"
+      },
+      "items": [
+        {
+          "title": "Northlane Apparel",
+          "category": "D2C / Performance",
+          "tags": [
+            "Meta Ads",
+            "Creative",
+            "CRO"
+          ],
+          "image": "/images/work-1.svg",
+          "summary": "Rebuilt the creative engine and funnel for a premium apparel label heading into peak season.",
+          "results": [
+            {
+              "value": "+218%",
+              "label": "Revenue in 6 months"
+            },
+            {
+              "value": "5.9x",
+              "label": "Blended ROAS"
+            }
+          ],
+          "link": "/#contact",
+          "linkLabel": "Discuss a similar project"
+        },
+        {
+          "title": "Verdant Wellness",
+          "category": "SEO / Content",
+          "tags": [
+            "SEO",
+            "Content",
+            "Digital PR"
+          ],
+          "image": "/images/work-2.svg",
+          "summary": "Built topical authority around 40 high-intent keywords for a supplements brand with zero organic base.",
+          "results": [
+            {
+              "value": "0 → 74k",
+              "label": "Monthly organic sessions"
+            },
+            {
+              "value": "31%",
+              "label": "Of total revenue from SEO"
+            }
+          ],
+          "link": "/#contact",
+          "linkLabel": "Discuss a similar project"
+        },
+        {
+          "title": "Lumen Interiors",
+          "category": "Lead Gen",
+          "tags": [
+            "Google Ads",
+            "Landing Pages",
+            "CRM"
+          ],
+          "image": "/images/work-3.svg",
+          "summary": "Replaced a leaky enquiry form with a qualified, scored lead funnel for a high-ticket interiors studio.",
+          "results": [
+            {
+              "value": "-62%",
+              "label": "Cost per qualified lead"
+            },
+            {
+              "value": "3.4x",
+              "label": "Sales-qualified volume"
+            }
+          ],
+          "link": "/#contact",
+          "linkLabel": "Discuss a similar project"
+        },
+        {
+          "title": "Orbit Wear",
+          "category": "Social / Branding",
+          "tags": [
+            "Social",
+            "Reels",
+            "Influencer"
+          ],
+          "image": "/images/work-4.svg",
+          "summary": "Turned a quiet streetwear page into a community with a reels-first content engine and creator seeding.",
+          "results": [
+            {
+              "value": "9k → 148k",
+              "label": "Instagram followers"
+            },
+            {
+              "value": "42%",
+              "label": "Of orders from social"
+            }
+          ],
+          "link": "/#contact",
+          "linkLabel": "Discuss a similar project"
+        },
+        {
+          "title": "Kite Finance",
+          "category": "Lead Gen",
+          "tags": [
+            "LinkedIn",
+            "Webinars",
+            "Nurture"
+          ],
+          "image": "/images/work-5.svg",
+          "summary": "Positioned a fintech advisory as the category expert and built a webinar-led pipeline motion.",
+          "results": [
+            {
+              "value": "+310%",
+              "label": "Demo requests"
+            },
+            {
+              "value": "₹1.2Cr",
+              "label": "Pipeline in 2 quarters"
+            }
+          ],
+          "link": "/#contact",
+          "linkLabel": "Discuss a similar project"
+        },
+        {
+          "title": "Saffron & Co",
+          "category": "D2C / Performance",
+          "tags": [
+            "Branding",
+            "Packaging",
+            "Web"
+          ],
+          "image": "/images/work-6.svg",
+          "summary": "Full rebrand and Shopify rebuild for a gourmet foods label entering modern retail.",
+          "results": [
+            {
+              "value": "+87%",
+              "label": "Conversion rate"
+            },
+            {
+              "value": "2.6x",
+              "label": "Average order value"
+            }
+          ],
+          "link": "/#contact",
+          "linkLabel": "Discuss a similar project"
+        }
+      ]
+    },
+    "whyUs_metrics": [
+      "100% transparent reporting",
+      "Weekly creative sprints",
+      "5 channels, one plan",
+      "Avg. 26-month retainer",
+      "You own everything",
+      "< 4h response time"
+    ],
+    "about": {
+      "paragraphs": [
+        "Sarovar Marketing Hub started in 2019 with one stubborn belief: marketing should be accountable. Not a monthly deck full of impressions, but a clear line between what we did and what your business earned.",
+        "Today we're a compact senior team of strategists, media buyers, designers and developers. Small enough that you speak to the people doing the work, sharp enough to run campaigns for brands doing crores in revenue."
+      ],
+      "signature": {
+        "enabled": false,
+        "name": "Dipanshu Sarovar",
+        "role": "Founder & Growth Lead",
+        "quote": "You don't need more marketing. You need marketing that compounds.",
+        "image": "/images/founder.svg"
+      },
+      "imageBadge": {
+        "icon": "award",
+        "title": "6 years",
+        "subtitle": "of compounding growth"
+      }
+    },
+    "contact_formNote": "Prefer to write? Use the form and we'll reply within 24 hours.",
+    "old_home_services": {
+      "eyebrow": "What we do",
+      "heading": "Services That Help Your Business Grow",
+      "highlight": "Grow",
+      "subheading": "Real Strategy. Quality Content. Transparent Marketing. We focus on meaningful content and informed advertising decisions, helping businesses grow their digital presence without relying on fake engagement or empty promises.",
+      "cta": {
+        "label": "Explore all services",
+        "href": "/services",
+        "icon": "arrow-right"
+      }
+    },
+    "old_whyUs": {
+      "eyebrow": "Why Sarovar",
+      "heading": "Why brands stay with us for years, not months",
+      "highlight": "years, not months",
+      "subheading": "Most agencies sell you reach. We sell you a system — and we stay accountable to the numbers it produces.",
+      "items": [
+        {
+          "icon": "gauge",
+          "title": "Numbers over adjectives",
+          "description": "Every campaign ships with a scorecard: CAC, ROAS, CPL, LTV. If a channel isn't earning, we say so before you ask.",
+          "metric": ""
+        },
+        {
+          "icon": "zap",
+          "title": "Speed that compounds",
+          "description": "New creative every week, not every quarter. Faster iteration means faster learning and cheaper results over time.",
+          "metric": ""
+        },
+        {
+          "icon": "layers",
+          "title": "Full-funnel by default",
+          "description": "Awareness, consideration and retention are planned together, so your ads, content and site tell one story.",
+          "metric": ""
+        },
+        {
+          "icon": "handshake",
+          "title": "Partner, not vendor",
+          "description": "We sit in your pricing, offer and retention conversations. Better inputs make marketing dramatically easier.",
+          "metric": ""
+        },
+        {
+          "icon": "eye",
+          "title": "No lock-in games",
+          "description": "You own every ad account, pixel, domain and asset from day one. Stay because it works, not because you're stuck.",
+          "metric": ""
+        },
+        {
+          "icon": "clock",
+          "title": "Replies in hours",
+          "description": "A shared channel with your actual strategist. No ticket queues, no account-manager telephone game.",
+          "metric": ""
+        }
+      ]
+    }
   }
 }

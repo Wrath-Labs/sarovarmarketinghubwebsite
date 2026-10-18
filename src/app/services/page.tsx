@@ -2,12 +2,12 @@ import type { Metadata } from 'next';
 
 import PageHero from '@/components/sections/PageHero';
 import ServicesDetail from '@/components/sections/ServicesDetail';
-import Process from '@/components/sections/Process';
-import Packages from '@/components/sections/Packages';
-import AddOns from '@/components/sections/AddOns';
-import Faq from '@/components/sections/Faq';
-import CtaBanner from '@/components/sections/CtaBanner';
-import LogoCloud from '@/components/sections/LogoCloud';
+// import Process from '@/components/sections/Process';
+// import Packages from '@/components/sections/Packages';
+// import AddOns from '@/components/sections/AddOns';
+// import Faq from '@/components/sections/Faq';
+// import CtaBanner from '@/components/sections/CtaBanner';
+// import LogoCloud from '@/components/sections/LogoCloud';
 
 import { services } from '@/lib/content';
 
@@ -31,13 +31,13 @@ export default function ServicesPage() {
         secondaryCta={hero?.secondaryCta}
         badges={hero?.badges}
       />
-      <LogoCloud />
+      {/* <LogoCloud /> */}
       <ServicesDetail />
-      <Process data={services.process} />
-      <Packages />
-      <AddOns />
-      <Faq data={services.faq} tone="section" />
-      <CtaBanner data={services.cta} />
+      {/* <Process data={services.process} /> */}
+      {/* <Packages /> */}
+      {/* <AddOns /> */}
+      {/* <Faq data={services.faq} tone="section" /> */}
+      {/* <CtaBanner data={services.cta} /> */}
     </>
   );
 }

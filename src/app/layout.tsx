@@ -63,8 +63,8 @@ const jsonLd = {
   slogan: brand.tagline,
   address: {
     '@type': 'PostalAddress',
-    streetAddress: site.contactInfo.addressLine1,
-    addressLocality: site.contactInfo.addressLine2,
+    addressLocality: 'Delhi',
+    addressCountry: 'IN',
   },
   sameAs: site.socials.map((s) => s.href),
 };
