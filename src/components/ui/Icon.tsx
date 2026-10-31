@@ -1,7 +1,8 @@
 'use client';
 
-import { DynamicIcon, iconNames } from 'lucide-react/dynamic';
+import { Sparkles } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { lucideIcons } from './lucide-registry';
 
 /* Brand marks (lucide dropped these in v1) so social icons still work from JSON.
    Add your own here with any key you like, then use that key in the JSON. */
@@ -48,7 +49,7 @@ export default function Icon({ name, className, size = 20, strokeWidth = 1.8 }: 
     );
   }
 
-  const lucideName = (iconNames.includes(key as never) ? key : 'sparkles') as never;
+  const Glyph = lucideIcons[key] || Sparkles;
 
   return (
     <span
@@ -57,7 +58,7 @@ export default function Icon({ name, className, size = 20, strokeWidth = 1.8 }: 
       aria-hidden="true"
     >
       {/* className goes on the svg as well, so fill and stroke utilities apply to it */}
-      <DynamicIcon name={lucideName} size={size} strokeWidth={strokeWidth} className={className} />
+      <Glyph size={size} strokeWidth={strokeWidth} className={className} />
     </span>
   );
 }

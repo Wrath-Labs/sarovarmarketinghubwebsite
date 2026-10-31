@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 import PageHero from '@/components/sections/PageHero';
+import TermsStrip from '@/components/sections/TermsStrip';
 import ServicesDetail from '@/components/sections/ServicesDetail';
 // import Process from '@/components/sections/Process';
 // import Packages from '@/components/sections/Packages';
@@ -31,6 +32,7 @@ export default function ServicesPage() {
         secondaryCta={hero?.secondaryCta}
         badges={hero?.badges}
       />
+      <TermsStrip variant="services" />
       {/* <LogoCloud /> */}
       <ServicesDetail />
       {/* <Process data={services.process} /> */}

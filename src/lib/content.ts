@@ -8,6 +8,8 @@ import themeJson from '@content/theme.json';
 import homeJson from '@content/home.json';
 import servicesJson from '@content/services.json';
 import whyUsJson from '@content/whyus.json';
+import termsJson from '@content/terms.json';
+import aboutJson from '@content/about.json';
 import contactJson from '@content/contact.json';
 
 import type { Site, Theme } from './types';
@@ -17,6 +19,8 @@ export const theme = themeJson as unknown as Theme;
 export const home = homeJson as unknown as Record<string, any>;
 export const services = servicesJson as unknown as Record<string, any>;
 export const whyUsPage = whyUsJson as unknown as Record<string, any>;
+export const terms = termsJson as unknown as Record<string, any>;
+export const aboutPage = aboutJson as unknown as Record<string, any>;
 export const contact = contactJson as unknown as Record<string, any>;
 
 /** Resolves a theme role (e.g. "primary") to the hex value in theme.colors. */
@@ -71,3 +75,16 @@ export const motionConfig = {
   distance: theme.effects?.revealDistance ?? 28,
   stagger: theme.effects?.staggerDelay ?? 0.09,
 };
+
+/** wa.me chat link for contactInfo.whatsapp. Pass a message to pre-fill the chat;
+    without one, the default from site.json → whatsappCta is used. */
+export function whatsappHref(message?: string) {
+  const number = (site.contactInfo.whatsapp || '').replace(/[^\d]/g, '');
+  const text = message ?? (site as any).whatsappCta?.message ?? site.floatingWhatsApp?.message ?? '';
+  return `https://wa.me/${number}${text ? `?text=${encodeURIComponent(text)}` : ''}`;
+}
+
+/** Turns the '#whatsapp' placeholder used in the JSON into a real chat link. */
+export function resolveHref(href: string) {
+  return href === '#whatsapp' ? whatsappHref() : href;
+}

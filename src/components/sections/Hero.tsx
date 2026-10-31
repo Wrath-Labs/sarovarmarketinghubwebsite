@@ -5,19 +5,11 @@ import { useRef } from 'react';
 import Button from '@/components/ui/Button';
 import Icon from '@/components/ui/Icon';
 import SmartImage from '@/components/ui/SmartImage';
+import HeroVisual from '@/components/ui/HeroVisual';
 import Highlight from '@/components/ui/Highlight';
 import { Blobs, GridPattern } from '@/components/ui/Decor';
 import { home, motionConfig } from '@/lib/content';
 import { splitHighlight } from '@/lib/utils';
-import { cn } from '@/lib/utils';
-
-/* Cards sit half outside the visual so they never cover its content. */
-const positions: Record<string, string> = {
-  'top-left': '-top-5 -left-3 sm:-top-7 sm:-left-9',
-  'top-right': '-top-5 -right-3 sm:-top-7 sm:-right-9',
-  'bottom-left': '-bottom-5 -left-3 sm:-bottom-7 sm:-left-9',
-  'bottom-right': '-bottom-5 -right-3 sm:-bottom-7 sm:-right-9',
-};
 
 export default function Hero() {
   const hero = home.hero;
@@ -26,7 +18,6 @@ export default function Hero() {
   const animate = motionConfig.enabled && !reduced;
 
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
-  const imageY = useTransform(scrollYProgress, [0, 1], [0, 90]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, 60]);
   const fade = useTransform(scrollYProgress, [0, 0.85], [1, 0]);
 
@@ -152,60 +143,7 @@ export default function Hero() {
           </motion.div>
 
           {/* ---------------- visual ---------------- */}
-          <motion.div
-            initial={animate ? { opacity: 0, scale: 0.92, y: 40 } : undefined}
-            animate={animate ? { opacity: 1, scale: 1, y: 0 } : undefined}
-            transition={{ duration: 1, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
-            style={animate ? { y: imageY } : undefined}
-            className="relative mx-auto w-full max-w-lg lg:max-w-none"
-          >
-            {/* halo */}
-            <div
-              aria-hidden
-              className="absolute inset-6 -z-10 rounded-[3rem] bg-linear-135 from-primary/30 to-primary-dark/25 blur-[60px]"
-            />
-
-            <motion.div
-              animate={animate ? { y: [0, -14, 0] } : undefined}
-              transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-              className="relative overflow-hidden rounded-[2rem] border border-line bg-white shadow-soft"
-            >
-              <SmartImage
-                src={hero.image}
-                alt={hero.imageAlt}
-                priority
-                width={640}
-                height={620}
-                sizes="(max-width: 1024px) 90vw, 45vw"
-                className="h-auto w-full"
-              />
-            </motion.div>
-
-            {/* floating stat cards */}
-            {(hero.floatingCards || []).map((card: any, i: number) => (
-              <motion.div
-                key={card.title}
-                initial={animate ? { opacity: 0, scale: 0.7, y: 24 } : undefined}
-                animate={animate ? { opacity: 1, scale: 1, y: 0 } : undefined}
-                transition={{ delay: 0.95 + i * 0.18, type: 'spring', stiffness: 260, damping: 20 }}
-                className={cn('absolute z-10', positions[card.position] || positions['top-left'])}
-              >
-                <motion.div
-                  animate={animate ? { y: [0, i % 2 === 0 ? -12 : 12, 0] } : undefined}
-                  transition={{ duration: 6 + i, repeat: Infinity, ease: 'easeInOut' }}
-                  className="flex items-center gap-3 rounded-[1.15rem] border border-line bg-page/90 px-4 py-3.5 shadow-card backdrop-blur-md"
-                >
-                  <span className="grid size-11 shrink-0 place-items-center rounded-[0.85rem] bg-linear-135 from-primary to-primary-dark text-white">
-                    <Icon name={card.icon} size={20} />
-                  </span>
-                  <span className="flex flex-col leading-tight">
-                    <span className="font-heading text-lg font-bold text-heading">{card.title}</span>
-                    <span className="text-[0.6875rem] font-medium text-body">{card.subtitle}</span>
-                  </span>
-                </motion.div>
-              </motion.div>
-            ))}
-          </motion.div>
+          <HeroVisual />
         </div>
 
         {/* scroll hint */}
