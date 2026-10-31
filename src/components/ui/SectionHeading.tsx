@@ -11,6 +11,7 @@ export default function SectionHeading({
   heading,
   highlight,
   subheading,
+  subheadingMobile,
   align = 'center',
   tone = 'light',
   icon,
@@ -22,6 +23,8 @@ export default function SectionHeading({
   heading?: string;
   highlight?: string;
   subheading?: string;
+  /** Shorter copy shown below the sm breakpoint; the full subheading shows from sm up. */
+  subheadingMobile?: string;
   align?: 'center' | 'left';
   tone?: 'light' | 'dark';
   icon?: string;
@@ -86,10 +89,22 @@ export default function SectionHeading({
               'mt-6 text-[1.0625rem] leading-relaxed sm:text-lg',
               dark ? 'text-white/70' : 'text-body',
               maxWidth,
+              subheadingMobile && 'hidden sm:block',
             )}
           >
             {subheading}
           </p>
+          {subheadingMobile && (
+            <p
+              className={cn(
+                'mt-5 text-[1rem] leading-relaxed sm:hidden',
+                dark ? 'text-white/70' : 'text-body',
+                maxWidth,
+              )}
+            >
+              {subheadingMobile}
+            </p>
+          )}
         </Reveal>
       )}
     </div>
