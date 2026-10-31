@@ -26,7 +26,6 @@ export const metadata: Metadata = {
   applicationName: brand.name,
   authors: [{ name: brand.name }],
   creator: brand.name,
-  icons: { icon: '/favicon.png', apple: '/favicon.png' },
   openGraph: {
     type: 'website',
     locale: seo.locale,

@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="absolute -bottom-52 right-0 size-[28rem] rounded-full bg-primary-dark/45 blur-[130px]" />
       </div>
 
-      <div className="container-page pt-20 pb-10 sm:pt-24">
+      <div className="container-page pt-20 pb-24 sm:pt-24 sm:pb-10">
         <div className="grid gap-14 lg:grid-cols-[1.1fr_2.15fr]">
           {/* brand */}
           <Reveal className="flex flex-col gap-7">
