@@ -63,6 +63,11 @@
       "label": "Instagram",
       "icon": "instagram",
       "href": "https://www.instagram.com/sarovarmarketinghub?xtok=MWtjZTBzNnd6aGMxZw=="
+    },
+    {
+      "label": "X (Twitter)",
+      "icon": "twitter",
+      "href": "https://x.com/HubSarovar30209"
     }
   ],
   "announcementBar": {
@@ -235,7 +240,7 @@
         "href": "/#contact"
       }
     ],
-    "socials_other_platforms": "Add LinkedIn / X / YouTube entries to 'socials' once real profile URLs exist."
+    "socials_other_platforms": "Add LinkedIn / YouTube entries to 'socials' once real profile URLs exist."
   },
   "whatsappCta": {
     "_comment": "Message pre-filled when someone taps a 'Book a Free Strategy Call' button (href '#whatsapp'). Number comes from contactInfo.whatsapp.",
