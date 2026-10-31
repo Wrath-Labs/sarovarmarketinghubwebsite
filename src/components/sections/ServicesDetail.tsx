@@ -25,6 +25,7 @@ export default function ServicesDetail() {
           heading={intro.heading}
           highlight={intro.highlight}
           subheading={intro.subheading}
+          subheadingMobile={intro.subheadingMobile}
           icon="layers"
         />
       )}
