@@ -1,0 +1,75 @@
+{
+  "_comment": "The /about page. Edit the text here. Use [label](url) for links.",
+  "meta": {
+    "title": "About Us",
+    "description": "Sarovar Marketing Hub is a digital marketing agency built on strategy before spend, purposeful creative and honest reporting. Thoughtful Marketing. Meaningful Growth."
+  },
+  "hero": {
+    "eyebrow": "About Us",
+    "heading": "Thoughtful Marketing. Meaningful Growth.",
+    "highlight": "Meaningful Growth."
+  },
+  "intro": [
+    "At Sarovar Marketing Hub, we believe that successful marketing is not about spending more money or posting content every day. It is about having the right strategy, creating meaningful content, and reaching the people who actually matter to your business.",
+    "We are a digital marketing agency dedicated to helping businesses build a strong and meaningful online presence. Our focus is on combining creative thinking, strategic planning, and practical digital solutions to help brands connect with their audience and grow in an increasingly competitive digital world.",
+    "From social media marketing and content creation to Meta Ads, Google Ads, YouTube Ads, influencer marketing, website development, and SEO, we help businesses make better use of digital platforms."
+  ],
+  "sections": [
+    {
+      "icon": "wallet",
+      "title": "Strategy Before Spend",
+      "paragraphs": [
+        "We understand that every business has different goals, challenges, and marketing budgets. Especially for small and growing businesses, spending heavily on advertising is not always practical or necessary.",
+        "That's why we believe in understanding your business before recommending where your money should go. We prioritise organic marketing to help build visibility, audience trust, and a strong content foundation. Paid advertising comes into the picture when it makes sense for your goals, audience, and available budget."
+      ],
+      "highlight": "Our focus is not on making you spend more. It is on helping you make smarter marketing decisions."
+    },
+    {
+      "icon": "clapperboard",
+      "title": "Creativity That Makes You Stand Out",
+      "paragraphs": [
+        "In today's digital world, simply posting a video or running an advertisement is not enough. People scroll past thousands of posts every day. What makes them stop is the idea, the hook, the message, and the way it is presented.",
+        "We put strong emphasis on creative quality, engaging scripts, thoughtful storytelling, culturally relevant content, and professional editing. From content planning and scripting to on-location shooting or remote recording guidance, we work to make every piece of content purposeful and engaging."
+      ],
+      "highlight": "Because good marketing starts with good communication."
+    },
+    {
+      "icon": "target",
+      "title": "Marketing That Understands Your Business",
+      "paragraphs": [
+        "A local retailer, a wholesaler, a clinic, and an interior designer do not need the same marketing strategy. Their audiences, buying behaviour, competition, and budgets are different.",
+        "We believe in building strategies around these differences. Whether it is reaching local customers, connecting wholesalers with retailers across selected markets, generating relevant enquiries, or strengthening a brand's digital identity, our approach starts with understanding the business."
+      ],
+      "highlight": "We don't believe in one-size-fits-all marketing."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Transparency at Every Step",
+      "paragraphs": [
+        "We believe trust is just as important as results. We value honest communication, clear expectations, and transparent reporting.",
+        "No fake followers, artificial engagement, unnecessary campaigns, or advertising spend without a clear objective. We focus on meaningful performance indicators, understanding what works, and continuously improving the strategy."
+      ]
+    },
+    {
+      "icon": "handshake",
+      "title": "A Practical, Collaborative Approach",
+      "paragraphs": [
+        "Our understanding of digital marketing comes from hands-on experience in building an online presence and generating business enquiries through organic content, including our own experience with Sarovar Properties.",
+        "For specialised services such as website development and SEO, we collaborate with our technology partner, [Wrath Labs](https://wrathlabs.in), combining our marketing approach with dedicated technical expertise to deliver solutions aligned with business goals."
+      ]
+    }
+  ],
+  "closing": {
+    "heading": "Let's Grow Together",
+    "paragraphs": [
+      "Whether you are a small business taking your first steps online, a local brand looking to reach more customers, or an established business aiming to strengthen its digital presence, Sarovar Marketing Hub is here to help you move forward with a clear strategy.",
+      "We believe in building visibility before chasing numbers, creating content with purpose, and spending with intention."
+    ],
+    "tagline": "Sarovar Marketing Hub — Thoughtful Marketing. Meaningful Growth.",
+    "cta": {
+      "label": "Book a Free Strategy Call",
+      "href": "#whatsapp",
+      "icon": "calendar-check"
+    }
+  }
+}
