@@ -6,6 +6,7 @@ import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import ScrollProgress from '@/components/layout/ScrollProgress';
 import CursorGlow from '@/components/layout/CursorGlow';
+import RouteProgress from '@/components/feedback/RouteProgress';
 import WhatsAppFab from '@/components/layout/WhatsAppFab';
 
 import { site, theme } from '@/lib/content';
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   applicationName: brand.name,
   authors: [{ name: brand.name }],
   creator: brand.name,
-  icons: { icon: '/favicon.svg', apple: '/favicon.svg' },
+  icons: { icon: '/favicon.png', apple: '/favicon.png' },
   openGraph: {
     type: 'website',
     locale: seo.locale,
@@ -89,6 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
 
+        <RouteProgress />
         {theme.effects.enableScrollProgressBar && <ScrollProgress />}
         {theme.effects.enableCursorGlow && <CursorGlow />}
 

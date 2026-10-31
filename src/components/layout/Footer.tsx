@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Logo from './Logo';
@@ -10,8 +9,6 @@ import { site } from '@/lib/content';
 
 export default function Footer() {
   const { footer, socials, contactInfo, brand } = site;
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
   const year = new Date().getFullYear();
 
   return (
@@ -24,11 +21,12 @@ export default function Footer() {
 
       <div className="container-page pt-20 pb-10 sm:pt-24">
         <div className="grid gap-14 lg:grid-cols-[1.1fr_2.15fr]">
-          {/* brand + newsletter */}
+          {/* brand */}
           <Reveal className="flex flex-col gap-7">
             <Logo tone="dark" />
             <p className="max-w-md text-[0.9375rem] leading-relaxed text-white/60">{footer.about}</p>
 
+            {/* Newsletter signup hidden for now. Restore by uncommenting (content stays in site.json → footer.newsletter).
             {footer.newsletter?.enabled && (
               <div className="max-w-md rounded-card border border-white/10 bg-white/[0.04] p-6 backdrop-blur">
                 <h3 className="font-heading text-lg text-white">{footer.newsletter.heading}</h3>
@@ -76,6 +74,7 @@ export default function Footer() {
                 <p className="mt-3 text-[0.6875rem] text-white/35">{footer.newsletter.note}</p>
               </div>
             )}
+            */}
           </Reveal>
 
           {/* link columns */}
@@ -157,6 +156,7 @@ export default function Footer() {
             ))}
           </div>
 
+          {socials.length > 0 && (
           <div className="flex flex-wrap items-center gap-2">
             {socials.map((s) => (
               <motion.a
@@ -172,6 +172,7 @@ export default function Footer() {
               </motion.a>
             ))}
           </div>
+          )}
         </Reveal>
 
         {/* giant wordmark */}
@@ -192,10 +193,22 @@ export default function Footer() {
         <div className="mt-10 flex flex-col-reverse items-center justify-between gap-5 border-t border-white/8 pt-7 text-center sm:flex-row sm:text-left">
           <p className="text-[0.8125rem] text-white/40">
             © {year} {footer.copyright} <span className="mx-1.5 hidden sm:inline">·</span>
-            <br className="sm:hidden" />
-            <span className="text-white/30">{footer.credit}</span>
+            <br />
+            <span className="text-white/30">
+              Developed by{' '}
+              <a
+                href="https://wrathlabs.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-white/55 underline decoration-white/20 underline-offset-4 transition hover:text-white hover:decoration-white"
+              >
+                Wrath Labs
+              </a>{' '}
+              2026
+            </span>
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+            {/* Privacy Policy / Terms pages are not live yet. Restore this block (links in site.json → _disabled.footer_legalLinks) once they exist.
             {footer.legalLinks.map((l) => (
               <Link
                 key={l.label}
@@ -205,6 +218,7 @@ export default function Footer() {
                 {l.label}
               </Link>
             ))}
+            */}
             <a
               href="#top"
               className="group inline-flex items-center gap-1.5 text-[0.8125rem] font-semibold text-white/60 transition hover:text-white"

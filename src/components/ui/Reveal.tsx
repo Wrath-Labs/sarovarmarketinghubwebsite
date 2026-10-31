@@ -58,13 +58,12 @@ export default function Reveal({
   const move = offsets(direction, distance ?? motionConfig.distance);
 
   const variants: Variants = {
-    hidden: { opacity: 0, ...move, scale: scale ? 0.96 : 1, filter: 'blur(6px)' },
+    hidden: { opacity: 0, ...move, scale: scale ? 0.96 : 1 },
     visible: {
       opacity: 1,
       x: 0,
       y: 0,
       scale: 1,
-      filter: 'blur(0px)',
       transition: {
         duration: duration ?? motionConfig.duration,
         delay,

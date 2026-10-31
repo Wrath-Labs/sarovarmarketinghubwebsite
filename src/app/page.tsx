@@ -11,6 +11,7 @@ import WhyUs from '@/components/sections/WhyUs';
 // Testimonials disabled: no real client testimonials yet.
 // import Testimonials from '@/components/sections/Testimonials';
 // import Faq from '@/components/sections/Faq';
+import TermsStrip from '@/components/sections/TermsStrip';
 import ContactCta from '@/components/sections/ContactCta';
 
 import { home, site } from '@/lib/content';
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
 const registry: Record<string, () => React.ReactNode> = {
   hero: () => <Hero />,
   // logos: () => <LogoCloud />,
+  terms: () => <TermsStrip variant="hero" />,
   services: () => <ServicesPreview />,
   // about: () => <About />,
   whyUs: () => <WhyUs />,

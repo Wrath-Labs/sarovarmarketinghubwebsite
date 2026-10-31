@@ -31,9 +31,9 @@ export default function CursorGlow() {
     <motion.div
       aria-hidden
       style={{ x: sx, y: sy }}
-      className="pointer-events-none fixed left-0 top-0 z-0 hidden size-[440px] rounded-full opacity-55 blur-[100px] lg:block"
+      className="pointer-events-none fixed left-0 top-0 z-0 hidden size-[440px] rounded-full opacity-55 will-change-transform lg:block"
     >
-      <div className="size-full rounded-full bg-[radial-gradient(circle,color-mix(in_oklab,var(--c-primary)_20%,transparent),transparent_65%)]" />
+      <div className="size-full rounded-full bg-[radial-gradient(circle,color-mix(in_oklab,var(--c-primary)_16%,transparent),transparent_68%)]" />
     </motion.div>
   );
 }

@@ -5,10 +5,10 @@ import Section from '@/components/ui/Section';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
 import Icon from '@/components/ui/Icon';
-import SmartImage from '@/components/ui/SmartImage';
+import ServiceVisual from '@/components/ui/ServiceVisual';
 import Reveal from '@/components/ui/Reveal';
 import RichText from '@/components/ui/RichText';
-import { services } from '@/lib/content';
+import { services, whatsappHref } from '@/lib/content';
 import { cn } from '@/lib/utils';
 import type { ServiceItem } from '@/lib/types';
 
@@ -52,16 +52,8 @@ export default function ServicesDetail() {
                   <motion.div
                     whileHover={{ y: -8, rotate: flip ? -0.8 : 0.8 }}
                     transition={{ type: 'spring', stiffness: 220, damping: 22 }}
-                    className="overflow-hidden rounded-[1.75rem] border border-line bg-white shadow-card"
                   >
-                    <SmartImage
-                      src={service.image}
-                      alt={service.title}
-                      width={640}
-                      height={480}
-                      sizes="(max-width: 1024px) 92vw, 46vw"
-                      className="h-auto w-full"
-                    />
+                    <ServiceVisual id={service.id} icon={service.icon} title={service.title} />
                   </motion.div>
 
                   {service.priceFrom && (
@@ -158,7 +150,11 @@ export default function ServicesDetail() {
                 )}
 
                 <Reveal delay={0.24} className="mt-8">
-                  <Button href="/#contact" label={`Enquire about ${service.title}`} icon="arrow-right" />
+                  <Button
+                    href={whatsappHref(`Hi Sarovar Marketing Hub! I'd like to enquire about ${service.title}.`)}
+                    label={`Enquire about ${service.title}`}
+                    icon="arrow-right"
+                  />
                 </Reveal>
               </div>
             </article>

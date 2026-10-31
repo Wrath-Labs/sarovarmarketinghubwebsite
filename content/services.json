@@ -11,7 +11,7 @@
     "subheading": "We focus on meaningful content and informed advertising decisions, helping businesses grow their digital presence without relying on fake engagement or empty promises.",
     "primaryCta": {
       "label": "Book a Free Strategy Call",
-      "href": "/#contact",
+      "href": "#whatsapp",
       "icon": "calendar-check"
     },
     "secondaryCta": {
@@ -140,7 +140,7 @@
       "icon": "code",
       "title": "Web & Mobile App Development",
       "tagline": "Websites that turn visitors into customers",
-      "description": "At Sarovar Marketing Hub, we help businesses establish a strong online presence through modern, responsive, and user-friendly websites. In partnership with [Wrath Labs](https://wrathlabs.in), we offer website design and development solutions tailored to your business goals, focusing on clean design, smooth functionality, and an experience that helps turn visitors into potential customers.",
+      "description": "At Sarovar Marketing Hub, we help businesses establish a strong online presence through modern, responsive, and user-friendly websites. In partnership with our technology partner, [Wrath Labs](https://wrathlabs.in), we offer website design and development solutions tailored to your business goals, focusing on clean design, smooth functionality, and an experience that helps turn visitors into potential customers.",
       "image": "/images/service-web.svg",
       "features": [
         "Modern, responsive, user-friendly websites",
@@ -155,7 +155,7 @@
       "icon": "search-check",
       "title": "SEO (Search Engine Optimization)",
       "tagline": "Be found by people already looking",
-      "description": "We help businesses improve their search engine visibility and attract relevant organic traffic through strategic SEO. In collaboration with [Wrath Labs](https://wrathlabs.in), we offer services including keyword research, on-page optimization, technical SEO, and local SEO to help your business reach potential customers and build a stronger long-term online presence.",
+      "description": "We help businesses improve their search engine visibility and attract relevant organic traffic through strategic SEO. In collaboration with our technology partner, [Wrath Labs](https://wrathlabs.in), we offer services including keyword research, on-page optimization, technical SEO, and local SEO to help your business reach potential customers and build a stronger long-term online presence.",
       "image": "/images/service-seo.svg",
       "features": [
         "Keyword research",
@@ -237,7 +237,7 @@
         ],
         "cta": {
           "label": "Start with Starter",
-          "href": "/#contact"
+          "href": "#whatsapp"
         }
       },
       {
@@ -258,7 +258,7 @@
         ],
         "cta": {
           "label": "Scale with Growth",
-          "href": "/#contact"
+          "href": "#whatsapp"
         }
       },
       {
@@ -278,7 +278,7 @@
         ],
         "cta": {
           "label": "Talk to the founder",
-          "href": "/#contact"
+          "href": "#whatsapp"
         }
       }
     ]
@@ -347,7 +347,7 @@
     "subheading": "That's exactly what the first call is for. Bring your numbers, we'll tell you where the biggest gap is — and what we'd fix first.",
     "primaryCta": {
       "label": "Book a Free Strategy Call",
-      "href": "/#contact",
+      "href": "#whatsapp",
       "icon": "calendar-check"
     },
     "secondaryCta": {

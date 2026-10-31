@@ -6,6 +6,7 @@
   },
   "sectionOrder": [
     "hero",
+    "terms",
     "services",
     "whyUs",
     "contact"
@@ -22,7 +23,7 @@
     "subheading": "Sarovar Marketing Hub is a full-funnel marketing agency. We blend sharp strategy, scroll-stopping creative and data-obsessed performance marketing to turn attention into revenue you can measure.",
     "primaryCta": {
       "label": "Book a Free Strategy Call",
-      "href": "/#contact",
+      "href": "#whatsapp",
       "icon": "calendar-check"
     },
     "secondaryCta": {
@@ -129,7 +130,7 @@
     "imageBadge": null,
     "cta": {
       "label": "Work with us",
-      "href": "/#contact",
+      "href": "#whatsapp",
       "icon": "arrow-right"
     }
   },
@@ -213,7 +214,7 @@
     "allLabel": "All work",
     "cta": {
       "label": "Start your project",
-      "href": "/#contact",
+      "href": "#whatsapp",
       "icon": "arrow-right"
     },
     "items": [

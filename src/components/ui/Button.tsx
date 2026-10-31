@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
 import Icon from './Icon';
+import { resolveHref } from '@/lib/content';
 import { cn } from '@/lib/utils';
 
 type Variant = 'primary' | 'secondary' | 'ghost' | 'light' | 'outlineLight';
@@ -40,7 +41,7 @@ const sizes: Record<Size, string> = {
 };
 
 export default function Button({
-  href,
+  href: rawHref,
   label,
   icon,
   iconPosition = 'right',
@@ -54,6 +55,7 @@ export default function Button({
   external,
 }: Props) {
   const reduced = useReducedMotion();
+  const href = rawHref ? resolveHref(rawHref) : rawHref;
 
   const classes = cn(
     'group relative inline-flex items-center justify-center overflow-hidden rounded-pill font-semibold',
@@ -112,9 +114,17 @@ export default function Button({
         whileTap={tap}
         transition={{ type: 'spring', stiffness: 400, damping: 24 }}
       >
-        <Link href={href} scroll={!isHash} className={classes}>
-          {inner}
-        </Link>
+        {isHash ? (
+          // Same-page anchor: a plain link lets the browser do the (smooth, offset) scroll.
+          // Next's <Link scroll={false}> swallowed the jump entirely.
+          <a href={href} className={classes}>
+            {inner}
+          </a>
+        ) : (
+          <Link href={href} className={classes}>
+            {inner}
+          </Link>
+        )}
       </motion.div>
     );
   }

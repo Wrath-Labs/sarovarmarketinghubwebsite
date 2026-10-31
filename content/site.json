@@ -5,7 +5,7 @@
     "shortName": "Sarovar",
     "logoText": "Sarovar",
     "logoTextAccent": "Marketing Hub",
-    "logoImage": "",
+    "logoImage": "/images/logo.jpg",
     "logoImageDark": "",
     "logoIcon": "waves",
     "tagline": "Marketing that moves the needle",
@@ -36,7 +36,7 @@
     ],
     "cta": {
       "label": "Book a Free Strategy Call",
-      "href": "/#contact"
+      "href": "#whatsapp"
     },
     "showCta": true
   },
@@ -55,29 +55,24 @@
   },
   "socials": [
     {
-      "label": "Instagram",
-      "icon": "instagram",
-      "href": "https://instagram.com/"
+      "label": "Facebook",
+      "icon": "facebook",
+      "href": "https://www.facebook.com/share/1GzCcQy7gr/"
     },
     {
-      "label": "LinkedIn",
-      "icon": "linkedin",
-      "href": "https://linkedin.com/"
+      "label": "Instagram",
+      "icon": "instagram",
+      "href": "https://www.instagram.com/sarovarmarketinghub?xtok=MWtjZTBzNnd6aGMxZw=="
     },
     {
       "label": "X (Twitter)",
       "icon": "twitter",
-      "href": "https://x.com/"
+      "href": "https://x.com/HubSarovar30209"
     },
     {
       "label": "YouTube",
       "icon": "youtube",
-      "href": "https://youtube.com/"
-    },
-    {
-      "label": "Facebook",
-      "icon": "facebook",
-      "href": "https://facebook.com/"
+      "href": "https://youtube.com/@sarovarmarketinghub?si=ugRIDmycifJeej0w"
     }
   ],
   "announcementBar": {
@@ -124,24 +119,44 @@
         "heading": "Services",
         "links": [
           {
-            "label": "Social Media Marketing",
-            "href": "/services#social-media-marketing"
+            "label": "Organic Content & SMM",
+            "href": "/services#organic-content-smm"
           },
           {
-            "label": "Performance Ads",
+            "label": "Social Media Management",
+            "href": "/services#social-media-management"
+          },
+          {
+            "label": "Meta Ads",
+            "href": "/services#meta-ads"
+          },
+          {
+            "label": "Google Ads",
+            "href": "/services#google-ads"
+          },
+          {
+            "label": "YouTube Ads",
+            "href": "/services#youtube-ads"
+          },
+          {
+            "label": "Content Shooting & Editing",
+            "href": "/services#content-shooting-editing"
+          },
+          {
+            "label": "Influencer Marketing",
+            "href": "/services#influencer-marketing"
+          },
+          {
+            "label": "Web & Mobile App Development",
+            "href": "/services#web-app-development"
+          },
+          {
+            "label": "SEO",
+            "href": "/services#seo"
+          },
+          {
+            "label": "Performance Marketing",
             "href": "/services#performance-marketing"
-          },
-          {
-            "label": "SEO & Content",
-            "href": "/services#seo-content"
-          },
-          {
-            "label": "Branding & Design",
-            "href": "/services#branding-design"
-          },
-          {
-            "label": "Web Development",
-            "href": "/services#web-development"
           }
         ]
       }
@@ -158,7 +173,7 @@
         "href": "/#contact"
       }
     ],
-    "credit": "Crafted with intent in Delhi, India."
+    "credit": ""
   },
   "floatingWhatsApp": {
     "enabled": true,
@@ -219,6 +234,21 @@
           "href": "/#testimonials"
         }
       ]
-    }
+    },
+    "footer_legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/#contact"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "/#contact"
+      }
+    ],
+    "socials_other_platforms": "Add a LinkedIn entry to 'socials' once a real profile URL exists."
+  },
+  "whatsappCta": {
+    "_comment": "Message pre-filled when someone taps a 'Book a Free Strategy Call' button (href '#whatsapp'). Number comes from contactInfo.whatsapp.",
+    "message": "Hi Sarovar Marketing Hub! I'd like to book a free strategy call."
   }
 }

@@ -1,0 +1,320 @@
+{
+  "_comment": "Search-term strip. Each service lists its official name plus the other names people use for it. region 'in' = mostly used in India (shows a small IN tag). Edit freely.",
+  "hero": {
+    "eyebrow": "Looking for something by another name?",
+    "heading": "Same service, different names",
+    "rows": 2
+  },
+  "services": {
+    "eyebrow": "Looking for something by another name?",
+    "heading": "Same service, different names",
+    "rows": 2
+  },
+  "items": [
+    {
+      "id": "organic-content-smm",
+      "icon": "sprout",
+      "name": "Organic Content & SMM",
+      "aliases": [
+        {
+          "label": "Social Media Marketing (SMM)"
+        },
+        {
+          "label": "Organic Reach",
+          "region": "in"
+        },
+        {
+          "label": "Content Marketing"
+        },
+        {
+          "label": "Brand Storytelling"
+        },
+        {
+          "label": "Instagram Growth"
+        },
+        {
+          "label": "Reels Strategy",
+          "region": "in"
+        },
+        {
+          "label": "Page Growth",
+          "region": "in"
+        },
+        {
+          "label": "Content Calendar"
+        }
+      ]
+    },
+    {
+      "id": "social-media-management",
+      "icon": "calendar-days",
+      "name": "Social Media Management",
+      "aliases": [
+        {
+          "label": "Social Media Handling",
+          "region": "in"
+        },
+        {
+          "label": "Page Handling",
+          "region": "in"
+        },
+        {
+          "label": "Community Management"
+        },
+        {
+          "label": "Account Management"
+        },
+        {
+          "label": "Social Media Manager"
+        },
+        {
+          "label": "Instagram Management"
+        },
+        {
+          "label": "Content Scheduling"
+        }
+      ]
+    },
+    {
+      "id": "meta-ads",
+      "icon": "target",
+      "name": "Meta Ads",
+      "aliases": [
+        {
+          "label": "Facebook Ads"
+        },
+        {
+          "label": "Instagram Ads"
+        },
+        {
+          "label": "FB Ads",
+          "region": "in"
+        },
+        {
+          "label": "Post Boosting",
+          "region": "in"
+        },
+        {
+          "label": "Paid Social"
+        },
+        {
+          "label": "Lead Ads"
+        },
+        {
+          "label": "Social Media Advertising"
+        }
+      ]
+    },
+    {
+      "id": "google-ads",
+      "icon": "search",
+      "name": "Google Ads",
+      "aliases": [
+        {
+          "label": "Google AdWords"
+        },
+        {
+          "label": "PPC (Pay Per Click)"
+        },
+        {
+          "label": "SEM"
+        },
+        {
+          "label": "Search Ads"
+        },
+        {
+          "label": "Display Ads"
+        },
+        {
+          "label": "Google Campaigns",
+          "region": "in"
+        },
+        {
+          "label": "Search Engine Marketing"
+        }
+      ]
+    },
+    {
+      "id": "youtube-ads",
+      "icon": "youtube",
+      "name": "YouTube Ads",
+      "aliases": [
+        {
+          "label": "Video Ads"
+        },
+        {
+          "label": "YouTube Advertising"
+        },
+        {
+          "label": "YouTube Promotion",
+          "region": "in"
+        },
+        {
+          "label": "In-Stream / TrueView Ads"
+        },
+        {
+          "label": "Pre-roll Ads"
+        },
+        {
+          "label": "Video Promotion",
+          "region": "in"
+        }
+      ]
+    },
+    {
+      "id": "content-shooting-editing",
+      "icon": "clapperboard",
+      "name": "Content Shooting & Editing",
+      "aliases": [
+        {
+          "label": "Video Production"
+        },
+        {
+          "label": "Reel Making",
+          "region": "in"
+        },
+        {
+          "label": "Video Editing"
+        },
+        {
+          "label": "Reels Editing",
+          "region": "in"
+        },
+        {
+          "label": "Product Shoot"
+        },
+        {
+          "label": "Ad Film",
+          "region": "in"
+        },
+        {
+          "label": "Videography"
+        },
+        {
+          "label": "Content Creation"
+        }
+      ]
+    },
+    {
+      "id": "influencer-marketing",
+      "icon": "megaphone",
+      "name": "Influencer Marketing",
+      "aliases": [
+        {
+          "label": "Influencer Promotion",
+          "region": "in"
+        },
+        {
+          "label": "Creator Partnerships"
+        },
+        {
+          "label": "Brand Collaborations"
+        },
+        {
+          "label": "Barter Collabs",
+          "region": "in"
+        },
+        {
+          "label": "UGC Creators"
+        },
+        {
+          "label": "Paid Promotions"
+        },
+        {
+          "label": "Influencer Outreach"
+        }
+      ]
+    },
+    {
+      "id": "web-app-development",
+      "icon": "code",
+      "name": "Web & Mobile App Development",
+      "aliases": [
+        {
+          "label": "Website Design & Development"
+        },
+        {
+          "label": "Website Making",
+          "region": "in"
+        },
+        {
+          "label": "App Development"
+        },
+        {
+          "label": "Android & iOS Apps"
+        },
+        {
+          "label": "E-commerce Website"
+        },
+        {
+          "label": "Landing Page"
+        },
+        {
+          "label": "WordPress / Shopify Site"
+        }
+      ]
+    },
+    {
+      "id": "seo",
+      "icon": "search-check",
+      "name": "SEO (Search Engine Optimization)",
+      "aliases": [
+        {
+          "label": "Search Engine Optimization"
+        },
+        {
+          "label": "Google Ranking",
+          "region": "in"
+        },
+        {
+          "label": "Rank on Google"
+        },
+        {
+          "label": "Organic Traffic"
+        },
+        {
+          "label": "On-Page SEO"
+        },
+        {
+          "label": "Local SEO"
+        },
+        {
+          "label": "Google Maps Ranking",
+          "region": "in"
+        },
+        {
+          "label": "Website Traffic"
+        }
+      ]
+    },
+    {
+      "id": "performance-marketing",
+      "icon": "line-chart",
+      "name": "Performance Marketing",
+      "aliases": [
+        {
+          "label": "Digital Advertising"
+        },
+        {
+          "label": "Lead Generation"
+        },
+        {
+          "label": "Paid Marketing",
+          "region": "in"
+        },
+        {
+          "label": "Paid Campaigns"
+        },
+        {
+          "label": "Customer Acquisition"
+        },
+        {
+          "label": "ROAS Optimization"
+        },
+        {
+          "label": "Online Advertising"
+        }
+      ]
+    }
+  ]
+}

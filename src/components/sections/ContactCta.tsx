@@ -12,7 +12,6 @@ export default function ContactCta() {
   if (!data) return null;
 
   const parts = splitHighlight(data.heading, data.highlight);
-  const wa = (site.contactInfo.whatsapp || '').replace(/[^\d]/g, '');
 
   return (
     <section id="contact" className="relative isolate overflow-hidden bg-section section-y">
@@ -72,7 +71,7 @@ export default function ContactCta() {
                   size="lg"
                 />
                 <Button
-                  href={data.secondaryCta.href === '#whatsapp' ? `https://wa.me/${wa}` : data.secondaryCta.href}
+                  href={data.secondaryCta.href}
                   label={data.secondaryCta.label}
                   icon={data.secondaryCta.icon}
                   iconPosition="left"
